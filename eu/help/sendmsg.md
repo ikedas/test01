@@ -43,13 +43,13 @@ Zerrenda batera bidalitako mezu bati erantzuteko, pribatuan jaso duzun edozein m
 
 ##### Pribatutasuna
 
-Zerrendara bidaltzen diren mezu guztiak zerrendako artxiboan gordetzen dira. **Beraz, mezua bidaltzean bere banaketa eta artxiboan erreprodukzioa baimentzen dugu espresuki**. Hala ere, bidali duzun edozein mezuren ezabaketa eskatu dezakezu, bai artxiboan zuzenean ('Markatu eposta hau ezabatzeko' botoia), bai [zerrendako jabea kontaktatuz](faquser#contactadmin.md).
+Zerrendara bidaltzen diren mezu guztiak zerrendako artxiboan gordetzen dira. **Beraz, mezua bidaltzean bere banaketa eta artxiboan erreprodukzioa baimentzen dugu espresuki**. Hala ere, bidali duzun edozein mezuren ezabaketa eskatu dezakezu, bai artxiboan zuzenean ('Markatu eposta hau ezabatzeko' botoia), bai [zerrendako jabea kontaktatuz](faquser.md#contactadmin).
 
 Zerrendara mezu bat bidaltzen duzunean **zure eposta helbidea mezuaren goiburuan eta zerrendako artxiboan agertuko da naturalki**.Hala ere, bestela adierazten ez bada, zure eposta helbidea eta eman zenuen bestelako datuak ez zaizkie hirugarrengoei emango baimenik gabe.
 
 | Note |
 |------|
-| ~~In most countries, your personal data is protected through a number of laws. For example, in the United States, the Privacy Act of 1974 applies. In the European Union, the "Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data" and national laws arising from it apply. To know more about this, [please contact the list owners](faquser#contactadmin.md).~~ |
+| ~~In most countries, your personal data is protected through a number of laws. For example, in the United States, the Privacy Act of 1974 applies. In the European Union, the "Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data" and national laws arising from it apply. To know more about this, [please contact the list owners](faquser.md#contactadmin).~~ |
 
 ~~As for any correspondence, **you must sign your messages**. On professional mailing lists, **it is customary to mention the name of the organization you belong to and your job title alongside your name**. However, **ask yourself whether it is relevant to give your complete details** (address, telephone number, etc.): they will remain available at any time in the list archive...~~
 

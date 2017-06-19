@@ -10,7 +10,7 @@ Oroigarria: eposta zerrendetan lau rol mota dago:
 -   **moderatzailea;**
 -   **harpideduna.**
 
-Begiratu [rol bakoitzeko deskribapena](introduction#roles.md) honi buruz gehiago jakiteko.
+Begiratu [rol bakoitzeko deskribapena](introduction.md#roles) honi buruz gehiago jakiteko.
 
 ### <span id="create_list"></span>Eposta zerrenda bat sortzeko eskatzen
 
@@ -18,7 +18,7 @@ Begiratu [rol bakoitzeko deskribapena](introduction#roles.md) honi buruz gehiago
 
 Eposta zerrendaren sorrera eskatzeko ondokoa egin:
 
-1.  Joan **[hasiera orrira](%7B%7Bpath_cgi%7D%7D/home)** eta [**izena eman**](user#sympa_auth.md).
+1.  Joan **[hasiera orrira](%7B%7Bpath_cgi%7D%7D/home)** eta [**izena eman**](user.md#sympa_auth).
 2.  Goiko menuan **'Zerrenda sortu' esteka sakatu**.
 
     | Note |
@@ -67,7 +67,7 @@ Honen ondoren **zerrenda kudeatzaileek eskaera onartu harte** itxaron beharko du
 
 Zure zerrenda bat kudeatzeko ondokoa egin:
 
-1.  Joan **hasiera orrira** eta **[saioa hasi](user#sympa_auth.md)**.
+1.  Joan **hasiera orrira** eta **[saioa hasi](user.md#sympa_auth)**.
 
     | Note |
     |------|
@@ -127,11 +127,11 @@ Sympak defektuzko fitxategiak erabiltzen ditu; hala bada zure zerrendako fitxate
 
 Defektuz, zerrendek ez dut partekatutako dokumentuentzako tokirik. Sortu beharko duzu, beraz. Horretarako **zerrendaren kudeaketa modulura** joan eta klikatu **Partekatua sortu** estekan.
 
-Harpidedunak partekatutako dokumentuen web atalean argitaratu ahal izateko **defektuzko baimenak aldatu** behar dituzu: zerrenaren kudeaketa moduluan, klikatu '**Editatu zerrenda konfigurazioa**'n eta gero '**Baimenak**en. Orriaren behealdean '[**Zeinek edita dezake**](listconfig#docsrights.md) menu bat dago; hautatu '**harpidedunentzat mugatuta** aukera.
+Harpidedunak partekatutako dokumentuen web atalean argitaratu ahal izateko **defektuzko baimenak aldatu** behar dituzu: zerrenaren kudeaketa moduluan, klikatu '**Editatu zerrenda konfigurazioa**'n eta gero '**Baimenak**en. Orriaren behealdean '[**Zeinek edita dezake**](listconfig.md#docsrights) menu bat dago; hautatu '**harpidedunentzat mugatuta** aukera.
 
 | Note |
 |------|
-| Kontuz, baimen hauek aldatu baino lehen karpeta batzuk sortzen badituzu idaztezin jarraituko dute. Bertan idaztea ahalbidetzeko karpeta bakoitzaren [change access rights](shared#acces.md) |
+| Kontuz, baimen hauek aldatu baino lehen karpeta batzuk sortzen badituzu idaztezin jarraituko dute. Bertan idaztea ahalbidetzeko karpeta bakoitzaren [change access rights](shared.md#acces) |
 
 Agian kuotak esleitu nahiko dituzu partekatutako web atalentzako 'Baimenak' atalean 'Zerrendako konfigurazioa editatu' sekzioan
 
@@ -181,7 +181,7 @@ Jendea zure eposta zerrendara harpidetu ahal duzun arren, **askoz hobea da jende
 
 | Note |
 |------|
-| 'Zerrendaren konfigurazioa aldatu' ataleko '[Denetarik](listconfig#other.md)' atalean harpidetzaren oroigarri automatikoak konfiguratu ahal dituzu baita ere. |
+| 'Zerrendaren konfigurazioa aldatu' ataleko '[Denetarik](listconfig.md#other)' atalean harpidetzaren oroigarri automatikoak konfiguratu ahal dituzu baita ere. |
 
 Orri honetatik **harpidedunak ez-harpidetzeko**, beraien izenen ondoan dagoen kutxa gaitu eta klikatu '**Hautatutako eposta helbideak ezabatu**' botoia.
 
@@ -205,7 +205,7 @@ Agertzen den informazioa:
 -   errore kopurua;
 -   erroreak egon diren tartea.
 
-**Azken errorea aztertu** edo **erroreak berrezarri** ahal duzu. Erroreak berrezartzen badituzu, harpidedunaren [puntuazioa](listconfig#bouncers.md) zeron jarriko da.
+**Azken errorea aztertu** edo **erroreak berrezarri** ahal duzu. Erroreak berrezartzen badituzu, harpidedunaren [puntuazioa](listconfig.md#bouncers) zeron jarriko da.
 
 Errebotatzen duten helbideak errazago kudeatzeko, kudeaketa moduluko '[Erreboteak](#manage_bounces)' orrira joan.
 
@@ -248,9 +248,9 @@ Mezua ohar batekin gaitzetsi bada, bidali duen harpidedunak eposta bat jasoko du
 
 Mezuaren egileari bidaltzen zaion gaitzespen oharra pertsonalizatu nahi baduzu, '**Gaitzespen mezuak kudeatu**' botoiarekin egin ahal duzu. Mezuen kudeaketa orrian gaitzespen mezuen multzo bat definitu ahalko duzu eta lehenetsia zein den adierazi.
 
-**Oroigarria**: zerrendaren kudeaketa moduluan [moderatzaileak gehitu edo kendu](listconfig#description.md) ahal dituzu. Horretarako, zerrendaren informazio orritik, sakatu '**Administrazioa**'-n, gero '**Zerrendaren konfigurazioa aldatu**'-an, eta azkenik '**Zerrendaren definizioa**-n.
+**Oroigarria**: zerrendaren kudeaketa moduluan [moderatzaileak gehitu edo kendu](listconfig.md#description) ahal dituzu. Horretarako, zerrendaren informazio orritik, sakatu '**Administrazioa**'-n, gero '**Zerrendaren konfigurazioa aldatu**'-an, eta azkenik '**Zerrendaren definizioa**-n.
 
-**Zerrendara heldu ondoren mezuak prozesatu** daitezke; erabilgarria izan daiteke zerrenda moderaturik ez dagoenean. **Mezu bat ezabatu** nahi baduzu, [bilatu webeko mezuen artxiboan](arc#arcsearch.md) eta klikatu mezuaren goi eskuinaldean dagoen **markatu eposta hau ezabatzeko** botoian. Baieztapen mezu bat agertuko da; sakatu 'Ados'. Mezua segundo gutxi barru ezabatuko da. **Kontuz ibili: ekintza hau ezin da desegin!!! Mezu bat ezabatzen baduzu ezingo duzu berreskuratu.**
+**Zerrendara heldu ondoren mezuak prozesatu** daitezke; erabilgarria izan daiteke zerrenda moderaturik ez dagoenean. **Mezu bat ezabatu** nahi baduzu, [bilatu webeko mezuen artxiboan](arc.md#arcsearch) eta klikatu mezuaren goi eskuinaldean dagoen **markatu eposta hau ezabatzeko** botoian. Baieztapen mezu bat agertuko da; sakatu 'Ados'. Mezua segundo gutxi barru ezabatuko da. **Kontuz ibili: ekintza hau ezin da desegin!!! Mezu bat ezabatzen baduzu ezingo duzu berreskuratu.**
 
 #### <span id="manage_archives"></span>Mezuen artxiboa kudeatzen
 

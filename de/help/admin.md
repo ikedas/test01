@@ -10,7 +10,7 @@ Erinnerung: Ein Mailinglistendienst kennt vier verschiedene Rollen:
 -   **Moderator;**
 -   **Abonnent.**
 
-Betrachten Sie die [Beschreibung der jeweiligen Rolle,](introduction#roles.md) um mehr hierüber zu erfahren.
+Betrachten Sie die [Beschreibung der jeweiligen Rolle,](introduction.md#roles) um mehr hierüber zu erfahren.
 
 ### <span id="create_list"></span>Das Erstellen einer Mailingliste beantragen
 
@@ -18,7 +18,7 @@ Der **Antrag zum Einrichten einer Mailingliste** kann **bestimmten Bedingungen u
 
 Um das Erstellen einer Mailingliste zu beantragen, gehen Sie folgendermaßen vor:
 
-1.  Gehen Sie zur **[Homepage der WWW-Listenoberfläche](%7B%7Bpath_cgi%7D%7D/home)** und [**melden Sie sich an.**](user#sympa_auth.md)
+1.  Gehen Sie zur **[Homepage der WWW-Listenoberfläche](%7B%7Bpath_cgi%7D%7D/home)** und [**melden Sie sich an.**](user.md#sympa_auth)
 2.  Wählen Sie im oberen Menü **'Liste anlegen'.**
 
     | Note |
@@ -67,7 +67,7 @@ Sie müssen hiernach **darauf warten, dass die Listenerzeugung durch einen Listm
 
 Um eine Liste, die Ihnen gehört, zu verwalten, gehen Sie folgendermaßen vor:
 
-1.  Gehen Sie zur **Homepage der WWW-Listenoberfläche** und **[melden Sie sich an.](user#sympa_auth.md)**
+1.  Gehen Sie zur **Homepage der WWW-Listenoberfläche** und **[melden Sie sich an.](user.md#sympa_auth)**
 
     | Note |
     |------|
@@ -127,13 +127,13 @@ Sympa benutzt normalerweise vorgegebene Dateien; in diesem Falle sind die listen
 
 Per Vorgabe haben Listen keinen Bereich für gemeinsame Dokumente. Sie müssen diesen daher einrichten. Um dies zu tun, wählen Sie das **Listen-Administrationsmodul** und klicken Sie auf den Link **'Gemeinsame Dokumente erstellen'.**
 
-Damit Abonnenten Dokumente im Bereich für gemeinsame Dokumente veröffentlichen können, müssen Sie die **vorgegebenen Berechtigungen ändern:** Klicklen Sie im Listen-Administrationsmodul auf **'Listenkonfiguration bearbeiten'** und dann auf **'Privilegien'.** Am Fuß der Seite ist ein Auswahlmenü namens [**'Wer kann bearbeiten';**](listconfig#docsrights.md) wählen Sie die Option **'Beschränkt auf Abonnenten (privat)'.**
+Damit Abonnenten Dokumente im Bereich für gemeinsame Dokumente veröffentlichen können, müssen Sie die **vorgegebenen Berechtigungen ändern:** Klicklen Sie im Listen-Administrationsmodul auf **'Listenkonfiguration bearbeiten'** und dann auf **'Privilegien'.** Am Fuß der Seite ist ein Auswahlmenü namens [**'Wer kann bearbeiten';**](listconfig.md#docsrights) wählen Sie die Option **'Beschränkt auf Abonnenten (privat)'.**
 
 | Note |
 |------|
-| Seien Sie vorsichtig: Wenn Sie bereits vor dieser Rechteänderung Ordner angelegt haben, bleiben diese weiterhin schreibgeschützt. Wenn Sie sie beschreibbar machen wollen, müssen Sie die [Zugriffsrechte](shared#acces.md) für diesen Ordner ändern. |
+| Seien Sie vorsichtig: Wenn Sie bereits vor dieser Rechteänderung Ordner angelegt haben, bleiben diese weiterhin schreibgeschützt. Wenn Sie sie beschreibbar machen wollen, müssen Sie die [Zugriffsrechte](shared.md#acces) für diesen Ordner ändern. |
 
-Eventuell möchten Sie auch [**Quatos**](listconfig#docsrights.md) für den Bereich für gemeinsame Dokumente einrichten; tun Sie dies auf der Seite 'Privilegien' des Abschnitts 'Listenkonfiguration bearbeiten'.
+Eventuell möchten Sie auch [**Quatos**](listconfig.md#docsrights) für den Bereich für gemeinsame Dokumente einrichten; tun Sie dies auf der Seite 'Privilegien' des Abschnitts 'Listenkonfiguration bearbeiten'.
 
 Um **alles über die Verwaltung gemeinsamer Dokumente zu erfahren** (Organisation, Zugriffsrechte ändern, Dokumente benennen etc.), betrachten Sie den Abschnitt ['Den Bereich für gemeinsame Dokumente verwenden'](shared.md) im Benutzerhandbuch.
 
@@ -181,7 +181,7 @@ Um **eine Abonnementerinnerung an alle Abonnenten zu schicken,** klicken Sie auf
 
 | Note |
 |------|
-| Sie können auf der Seite ['Verschiedenes'](listconfig#other.md) des Abschnitts 'Listenkonfiguration bearbeiten' auch eine automatische Abonnementerinnerung einrichten. |
+| Sie können auf der Seite ['Verschiedenes'](listconfig.md#other) des Abschnitts 'Listenkonfiguration bearbeiten' auch eine automatische Abonnementerinnerung einrichten. |
 
 Um auf dieser Seite **Abonnenten auszutragen,** wählen Sie sie, indem Sie die Felder vor ihren Namen ankreuzen, und klicken Sie auf den Knopf **'Ausgewählte E-Mail-Adressen löschen'.**
 
@@ -205,7 +205,7 @@ Die angezeigten Informationen umfassen:
 -   die Zahl der Fehler;
 -   den Zeitraum, in dem die Fehler aufgetreten sind
 
-Sie können **den jüngsten Fehler überprüfen** oder **die Fehler zurücksetzen.** Wenn Sie die Fehler zurücksetzen, wird die [Zustellfehler-Punktzahl](listconfig#bouncers.md) des Abonnenten auf null zurückgesetzt.
+Sie können **den jüngsten Fehler überprüfen** oder **die Fehler zurücksetzen.** Wenn Sie die Fehler zurücksetzen, wird die [Zustellfehler-Punktzahl](listconfig.md#bouncers) des Abonnenten auf null zurückgesetzt.
 
 Um Adressen mit Zustellfehlern leichter zu verwalten, wählen Sie die Seite ['Zustellfehler'](#manage_bounces) im Listen-Administrationsmodul aus.
 
@@ -248,9 +248,9 @@ Indem Sie das Feld **'Zur schwarzen Liste hinzufügen'** ankreuzen, verzichten S
 
 Wenn Sie die Ablehnungsbenachrichtigung, die der Nachrichtenurheber erhält, anpassen möchten, können Sie dies mit dem Knopf **'Ablehnungsnachrichten verwalten'** tun. Diese Verwaltungsseite lässt Sie eine Reihe von Ablehnungsnachrichten erstellen und definieren, welche per Vorgabe verwendet wird.
 
-**Hinweis:** Sie können über das Listen-Administrationsmodul [Moderatoren hinzufügen oder entfernen.](listconfig#description.md) Klicken Sie dafür auf der Listen-Informationsseite auf **'Admin',** auf **'Listenkonfiguration bearbeiten',** und schließlich auf **'Listendefinition'.**
+**Hinweis:** Sie können über das Listen-Administrationsmodul [Moderatoren hinzufügen oder entfernen.](listconfig.md#description) Klicken Sie dafür auf der Listen-Informationsseite auf **'Admin',** auf **'Listenkonfiguration bearbeiten',** und schließlich auf **'Listendefinition'.**
 
-Sie können auch **Nachrichten bearbeiten, nachdem sie über die Liste verteilt wurden;** dies kann sinnvoll sein, wenn eine Liste nicht moderiert ist. Wenn Sie eine **Nachricht löschen** möchten, [suchen Sie sie im Online-Nachrichtenarchiv auf](arc#arcsearch.md) und klicken Sie auf den Knopf **'Diese E-Mail zum Löschen markieren'** in der oberen rechten Ecke der Nachricht. Eine Bestätigungsanfrage erscheint; klicken Sie auf 'OK'. Die Nachricht wird nach einigen Sekunden gelöscht. **Seien Sie vorsichtig: Diese Aktion ist unumkehrbar! Wenn Sie eine Nachricht löschen, kann sie nicht mehr zurückgeholt werden.**
+Sie können auch **Nachrichten bearbeiten, nachdem sie über die Liste verteilt wurden;** dies kann sinnvoll sein, wenn eine Liste nicht moderiert ist. Wenn Sie eine **Nachricht löschen** möchten, [suchen Sie sie im Online-Nachrichtenarchiv auf](arc.md#arcsearch) und klicken Sie auf den Knopf **'Diese E-Mail zum Löschen markieren'** in der oberen rechten Ecke der Nachricht. Eine Bestätigungsanfrage erscheint; klicken Sie auf 'OK'. Die Nachricht wird nach einigen Sekunden gelöscht. **Seien Sie vorsichtig: Diese Aktion ist unumkehrbar! Wenn Sie eine Nachricht löschen, kann sie nicht mehr zurückgeholt werden.**
 
 #### <span id="manage_archives"></span>Das Nachrichtenarchiv verwalten
 

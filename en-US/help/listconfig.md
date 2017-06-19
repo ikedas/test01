@@ -201,7 +201,7 @@
 -   ~~the **task to perform towards the subscribers concerned**: no task, notice, deletion from the list;~~
 -   ~~the **person to be notified** when a task is carried out: no one, the list owners, the listmasters. The notice sent when a task is carried out involves the names of all the subscribers concerned as well as precise information about the task.~~
 
-~~**To manage bounces** (reset errors for some subscribers, unsubscribe bouncing subscribers, request a subscription reminder, etc.), **go to the '[Bounces](admin#manage_bounces.md)' page** of the list administration module.~~
+~~**To manage bounces** (reset errors for some subscribers, unsubscribe bouncing subscribers, request a subscription reminder, etc.), **go to the '[Bounces](admin.md#manage_bounces)' page** of the list administration module.~~
 
 ~~BE CAREFUL: do not forget to click on the 'Update' button on bottom of page to save all your changes.~~
 

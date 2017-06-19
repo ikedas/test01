@@ -201,7 +201,7 @@ Der Abschnitt **'Verwaltung der Zustellfehler'** definiert zwei Raten:
 -   die **Aktion, die auf betroffene Abonnenten angewandt werden soll:** keine Aktion, Benachrichtigung, Entfernen aus der Liste;
 -   die **zu benachrichtigende Person,** wenn eine Aktion ausgeführt wird: niemand, die Listeneigentümer, die Listmasters. Die Benachrichtigung, die verschickt wird, wenn eine Aktion ausgeführt wird, enthält die Namen aller betroffenen Abonennten und genaue Informationen über die Aktion.
 
-**Um Zustellfehler zu verwalten,** (Fehlerstand für Abonnenten zurücksetzen, Abonnenten mit Zustellfehlern austragen, Abonnementerinnerungen verschicken usw.), **gehen Sie zur Seite ['Zustellfehler'](admin#manage_bounces.md)** des Listen-Administrationsmoduls.
+**Um Zustellfehler zu verwalten,** (Fehlerstand für Abonnenten zurücksetzen, Abonnenten mit Zustellfehlern austragen, Abonnementerinnerungen verschicken usw.), **gehen Sie zur Seite ['Zustellfehler'](admin.md#manage_bounces)** des Listen-Administrationsmoduls.
 
 **VORSICHT: Vergessen Sie nicht, auf den Knopf 'Update'** am Fuß der Seite zu klicken, um all Ihre Änderungen zu speichern.
 

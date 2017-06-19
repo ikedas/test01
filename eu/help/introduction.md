@@ -39,23 +39,23 @@ Eposta zerrenda zerbitzu batean izena eman ondoren, ondokoa egin ahal duzu:
 
 -   **eposta zerrendak bilatu** zure interes edo egoerarekin bat egiten dutenen bila.
 -   **zure harpidetzak kudeatu**:
-    -   zerrenda batera [harpidetu](user#subscribe.md),
-    -   harpidetuta zauden zerrenda batetik [ez-harpidetu](user#unsubscribe.md)
-    -   zerrenda bakoitzeko zure [harpidetza aukerak](user#options.md) aldatu,
-    -   Eposta zerrenden ingurune osorako [lehentasun orokorrak](user#pref.md) aldatu (izena, pasahitza, eposta zerrendaren web interfazearen hizkuntza, etab.);
+    -   zerrenda batera [harpidetu](user.md#subscribe),
+    -   harpidetuta zauden zerrenda batetik [ez-harpidetu](user.md#unsubscribe)
+    -   zerrenda bakoitzeko zure [harpidetza aukerak](user.md#options) aldatu,
+    -   Eposta zerrenden ingurune osorako [lehentasun orokorrak](user.md#pref) aldatu (izena, pasahitza, eposta zerrendaren web interfazearen hizkuntza, etab.);
 -   **eposta zerrendak erabili**:
     -   [harpidetuta ez zauden zerrenden artxiboa](arc.md) irakurri, artxiboa publikoa bada eta zure eskubideek zerrenda hori atzitzeko baimena ematen badizute,
     -   [harpidetuta zauden zerrenden artxiboa](arc.md) irakurri,
-    -   [zerrendako artxiboan bilaketak](arc#arcsearch.md) egin,
+    -   [zerrendako artxiboan bilaketak](arc.md#arcsearch) egin,
     -   harpidetuta zauden zerrendetara [mezuak bidali](sendmsg.md),
-    -   partekatutako dokumentuen ataletik [dokumentuak deskargatu](shared#shared_read.md),
-    -   partekatutako dokumentuen atalera [dokumentuak igo](shared#shared_upload.md);
+    -   partekatutako dokumentuen ataletik [dokumentuak deskargatu](shared.md#shared_read),
+    -   partekatutako dokumentuen atalera [dokumentuak igo](shared.md#shared_upload);
 -   **eposta zerrendak kudeatu**:
-    -   [zerrenda berriak sortu](admin#create_list.md) (atzipen mugatua) - baimena behar du,
-    -   zureak diren [zerrendak konfiguratu](admin#edit_list.md),
-    -   [harpidetzak kudeatu](admin#manage_members.md),
-    -   [partekatutako dokumentuen atala kudeatu](admin#manage_shared.md),
-    -   moderatzaile zaren [zerrendak moderatu](admin#moderate.md).
+    -   [zerrenda berriak sortu](admin.md#create_list) (atzipen mugatua) - baimena behar du,
+    -   zureak diren [zerrendak konfiguratu](admin.md#edit_list),
+    -   [harpidetzak kudeatu](admin.md#manage_members),
+    -   [partekatutako dokumentuen atala kudeatu](admin.md#manage_shared),
+    -   moderatzaile zaren [zerrendak moderatu](admin.md#moderate).
 
 ### <span id="roles"></span>Nola dabil eposta zerrenden zerbitzua: rolak eta ardurak
 
@@ -88,11 +88,11 @@ Zerrenda kudeatzaileek **eposta zerrenden zerbitzua kudeatzeko** ardura dute. Be
 
 **Zerrendaren jabea normalean bere sortzailea izaten da** edo, bestela, zerrendaren sorrera eskatu zuena edo bere ardura hartu duena.**Bere betebeharrak**:
 
--   **[zerrenda nola erabiliko den](admin#edit_list.md) definitu**;
--   harpidedunei zuzendutako **[zerrendaren arautegia](admin#charter.md) idatzi**;
--   **[moderatzaile](listconfig#description.md) bat edo gehiago ezarri**;
--   **[harpidetzak eta ez-harpidetzak](admin#manage_members.md) kudeatu**,
--   harpidedunentzat eskuragarri egongo den **[partekatutako dokumentuen web atala](admin#manage_shared.md) jartzea merezi duen erabaki**;
+-   **[zerrenda nola erabiliko den](admin.md#edit_list) definitu**;
+-   harpidedunei zuzendutako **[zerrendaren arautegia](admin.md#charter) idatzi**;
+-   **[moderatzaile](listconfig.md#description) bat edo gehiago ezarri**;
+-   **[harpidetzak eta ez-harpidetzak](admin.md#manage_members) kudeatu**,
+-   harpidedunentzat eskuragarri egongo den **[partekatutako dokumentuen web atala](admin.md#manage_shared) jartzea merezi duen erabaki**;
 -   **harpidedun eta harpidedun izan ahal dutenen zerrendaren inguruko galderak erantzun;**
 -   etab.
 
@@ -100,7 +100,7 @@ Zerrenda batek jabe bat baino gehiago izan ditzake. Hala ere **'Berezia' profila
 
 #### Moderatzaileak
 
-**Moderatzaileak zerrendaren jabeak ezartzen ditu**. **[Zerrendara bidaltzen diren mezuak aproposak direla bermatzeaz](admin#moderate.md) arduratzen dira**: irakurri ondoren **onartu edo gaitzetsi erabakitzen dute**. Moderazioa mezua harpidedunei bidali baino lehen egiten da. Mezu baten gaitzespena bidaltzailearentzako ohar batekin joan ohi da, gaitzespenaren zergatia azalduz.
+**Moderatzaileak zerrendaren jabeak ezartzen ditu**. **[Zerrendara bidaltzen diren mezuak aproposak direla bermatzeaz](admin.md#moderate) arduratzen dira**: irakurri ondoren **onartu edo gaitzetsi erabakitzen dute**. Moderazioa mezua harpidedunei bidali baino lehen egiten da. Mezu baten gaitzespena bidaltzailearentzako ohar batekin joan ohi da, gaitzespenaren zergatia azalduz.
 
 Zerrenda batek **moderatzaile bat edo gehiago** izan ahal ditu; normalean jabea ere moderatzaile izaten da.
 
@@ -114,6 +114,6 @@ Eposta zerrenden zerbitzu bat erabiltzeak arau batzuk jarraitzea dakar:
 -   Egotekotan, zerrenda jabe eta moderatzaileek 'Jabe eta moderatzaile araudia' bete behar dute.
 -   Eposta zerrenden erabilpena naturalki epostarekin erlazionatutako praktika onen legeak errespetatzea dakar.
 
-Gehiago jakiteko irakurri [harpidedunentzako ohitura onak](sendmsg#rulesuser.md) lantzen dituen atala eta [jabe eta moderatzaileentzako praktika onak](admin#rulesadmin.md) lantzen dituena.
+Gehiago jakiteko irakurri [harpidedunentzako ohitura onak](sendmsg.md#rulesuser) lantzen dituen atala eta [jabe eta moderatzaileentzako praktika onak](admin.md#rulesadmin) lantzen dituena.
 
 ------------------------------------------------------------------------

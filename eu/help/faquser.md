@@ -28,14 +28,14 @@ Arazo honek arrazoi ezberdinak izan ditzake:
     -   Baliteke harpidetza beste eposta helbide batekin egin izana.
     -   Baliteke zerrenden jabeek zure harpidetza eskaera gaitzetsi izana.
 
-    Edozein kasutan, saiatu berriro [harpidetzen](user#subscribe.md).
+    Edozein kasutan, saiatu berriro [harpidetzen](user.md#subscribe).
 -   <span id="notsubscribedanymore"></span>**Dagoeneko ez zaude zerrendara harpidetuta**:
-    -   Zure helbidea tarte bat egon bada errebotatzen, baliteke sistema automatikoak (edo zerrendaren jabeek) ez-harpidetu izana. Zure eposta helbideak dagoeneko arazorik ematen ez duela egiaztatu ondoren saiatu [berriro harpidetzen](user#subscribe.md).
+    -   Zure helbidea tarte bat egon bada errebotatzen, baliteke sistema automatikoak (edo zerrendaren jabeek) ez-harpidetu izana. Zure eposta helbideak dagoeneko arazorik ematen ez duela egiaztatu ondoren saiatu [berriro harpidetzen](user.md#subscribe).
     -   Ez badituzu zerrendako erregela ezberdinak jarraitu, baliteke zerrendako jabeek zu "baneatu" izana...
-    -   Baliteke intentzio txarreko baten bat zu ez-harpidetzea, zerrenda ez bada harpidetze eta ez-harpidetzetarako baieztapen mezurik eskatzen... Kasu horretan, saiatu berriro [harpidetzen](user#subscribe.md).
--   **Zure [bidalketa modua](user#deliverymode.md) ez ditu mezuak bidaltzen**: adibidez, hau 'Epostarik ez' bidalketa moduarekin gertatzen da.
+    -   Baliteke intentzio txarreko baten bat zu ez-harpidetzea, zerrenda ez bada harpidetze eta ez-harpidetzetarako baieztapen mezurik eskatzen... Kasu horretan, saiatu berriro [harpidetzen](user.md#subscribe).
+-   **Zure [bidalketa modua](user.md#deliverymode) ez ditu mezuak bidaltzen**: adibidez, hau 'Epostarik ez' bidalketa moduarekin gertatzen da.
 -   **Zure posta kutxa beteta dago**. Kontuz: zure posta kutxa erabat beteta ez badago mezu laburrak bakarrik jasoko dituzu, benetako arazoa zein den atzematea zailduz... Gainera, zure eposta helbideak askotan arazoak ematen baditu, baliteke sistema edo zerrendako jabeek ez-harpidetu izana. Beraz, saiatu zure posta kutxa maiz garbitzen.
--   **Zure posta kutxak mugaren bat du**: ez du eranskinak dituen mezuak onartzen, eranskin mota batzuk debekatzen ditu, edo sartzen diren mezuen kopurua mugatzen du; edozein kasutan, [Url bihurtu bidalketa modua](user#deliverymode.md) aukeratzea gomendatzen dizugu.
+-   **Zure posta kutxak mugaren bat du**: ez du eranskinak dituen mezuak onartzen, eranskin mota batzuk debekatzen ditu, edo sartzen diren mezuen kopurua mugatzen du; edozein kasutan, [Url bihurtu bidalketa modua](user.md#deliverymode) aukeratzea gomendatzen dizugu.
 
 #### Ezin dituzu zerrendara mezuak bidali
 

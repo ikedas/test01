@@ -103,10 +103,10 @@ Informazio orri honetan honakoak egin ahal dituzu:
 
 -   zure [harpidetza aukerak](#options) aldatu;
 -   [zerrendako artxiboa](arc.md) irakurri;
--   [zerrendako artxiboan bilatu](arc#arcsearch.md);
+-   [zerrendako artxiboan bilatu](arc.md#arcsearch);
 -   [mezu berriak bidali](sendmsg.md);
--   partekatutako dokumentuen web ataletik [dokumentuak deskargatu](shared#shared_read.md);
--   partekatutako dokumentuen atalera [dokumentuak igo](shared#shared_upload.md);
+-   partekatutako dokumentuen web ataletik [dokumentuak deskargatu](shared.md#shared_read);
+-   partekatutako dokumentuen atalera [dokumentuak igo](shared.md#shared_upload);
 -   zerrendako [kideak aztertu](#subscribers) (eskuragarri badago);
 -   zerrenda bakoitzeko harpidetza [baja edo alta eman](suspend.md);
 -   zerrendatik [ez-harpidetu](#unsubscribe).

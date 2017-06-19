@@ -28,14 +28,14 @@ Aquest problema pot tenir moltes causes:
     -   Potser us vau subscriure amb una adreça diferent de la que esteu comprovant.
     -   Potser que la vostra petició de subscripció haja estat rebutjada pels propietaris de la llista.
 
-    En qualsevol cas, intenteu [subscriure-us-hi](user#subscribe.md) una altre cop.
+    En qualsevol cas, intenteu [subscriure-us-hi](user.md#subscribe) una altre cop.
 -   <span id="notsubscribedanymore"></span>**Ya no estic subscrit a la llista**:
-    -   Si la vostra adreça ha causat retornats durant un temps, potser el sistema (o fins i tot el propietari) us haja donat de baixa automàticament. Intenteu [subscriure-us una altre cop](user#subscribe.md) desprès que us hageu assegurat que l'adreça de correu no donarà problemes més endavant.
+    -   Si la vostra adreça ha causat retornats durant un temps, potser el sistema (o fins i tot el propietari) us haja donat de baixa automàticament. Intenteu [subscriure-us una altre cop](user.md#subscribe) desprès que us hageu assegurat que l'adreça de correu no donarà problemes més endavant.
     -   Si no heu respectat les diferents normes de la llista de correu, els propietaris us poden haver «expulsat»...
-    -   Potser algun malintencionat us haja donat de baixa arbitràriament, en cas que la llista no estiga configurada per a rebre una confirmació de petició de subscripció o de donada de baixa... En aquest cas, intenteu [subscriure-us](user#subscribe.md) un altre cop.
--   **La [modalitat d'entrega](user#deliverymode.md) no us permet rebre missatges**: per exemple, en la modalitat d'entrega «Nomail».
+    -   Potser algun malintencionat us haja donat de baixa arbitràriament, en cas que la llista no estiga configurada per a rebre una confirmació de petició de subscripció o de donada de baixa... En aquest cas, intenteu [subscriure-us](user.md#subscribe) un altre cop.
+-   **La [modalitat d'entrega](user.md#deliverymode) no us permet rebre missatges**: per exemple, en la modalitat d'entrega «Nomail».
 -   **Teniu la safata d'entrada plena**. Atenció: quan no teniu la safata d'entrada completament plena, només rebeu els missatges petits, fet que dificulta saber quin és el problema... A més a més, si l'adreça de correu normalment causa problemes, els propietaris o el sistema us poden donar de baixa. De manera que cal que netejeu la safata d'entrada amb regularitat.
--   **La safata d'entrada té algunes restriccions**: no us permet rebre missatges amb adjunts, rebutja alguns tipus d'adjunts o limita la mida màxima dels missatges d'entrada; en aquest cas, cal que elegiu la [modalitat d'entrega urlize](user#deliverymode.md).
+-   **La safata d'entrada té algunes restriccions**: no us permet rebre missatges amb adjunts, rebutja alguns tipus d'adjunts o limita la mida màxima dels missatges d'entrada; en aquest cas, cal que elegiu la [modalitat d'entrega urlize](user.md#deliverymode).
 
 #### No puc enviar missatges a la llista
 

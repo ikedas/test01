@@ -28,14 +28,14 @@ Problem może mieć następujące przyczyny:
     -   Być może subskrybujesz listę innym adresem niż ten, z którego wiadomości sprawdzasz.
     -   Być może Twoja prośba o subskrypcję została odrzucona przez właścicieli listy.
 
-    W każdym razie, spróbuj [zasubskrybować listę](user#subscribe.md) ponownie.
+    W każdym razie, spróbuj [zasubskrybować listę](user.md#subscribe) ponownie.
 -   <span id="notsubscribedanymore"></span>**Już nie jesteś uczestnikiem listy**:
-    -   Jeśli Twój adres przez jakiś czas zwracał wiadomości, być może zostałeś wypisany z listy przez system (lub przez właścicieli). Spróbuj [zapisać się ponownie](user#subscribe.md) po upewnieniu się, że adres email działa prawidłowo.
+    -   Jeśli Twój adres przez jakiś czas zwracał wiadomości, być może zostałeś wypisany z listy przez system (lub przez właścicieli). Spróbuj [zapisać się ponownie](user.md#subscribe) po upewnieniu się, że adres email działa prawidłowo.
     -   Jeśli nie stosowałeś się do reguł panujących na liści, być może właściciele listy zablokowali Ci dostęp...
-    -   Być może zostałeś wypisany z listy przez inną osobę, jest to możliwe w sytuacji, gdy lista nie wysyła wiadomości potwierdzających prośby o zapisanie lub wypisanie się z listy... W takiej sytuacji, spróbuj [zapisać się](user#subscribe.md) ponownie.
--   **Twój [tryb dostarczania](user#deliverymode.md) nie pozwala na otrzymywanie wiadomości**: na przykład gdy masz ustawiony tryb 'Brak wiadomości'.
+    -   Być może zostałeś wypisany z listy przez inną osobę, jest to możliwe w sytuacji, gdy lista nie wysyła wiadomości potwierdzających prośby o zapisanie lub wypisanie się z listy... W takiej sytuacji, spróbuj [zapisać się](user.md#subscribe) ponownie.
+-   **Twój [tryb dostarczania](user.md#deliverymode) nie pozwala na otrzymywanie wiadomości**: na przykład gdy masz ustawiony tryb 'Brak wiadomości'.
 -   **Twoja skrzynka pocztowa jest przepełniona**. Uwaga: jeśli Twoja skrzynka nie jest całkowicie przepełniona, dostajesz jedynie niewielkie wiadomości, i trudno jest zrozumieć, co stanowi problem... Jeśli Twój adres email regularnie powoduje problemy, możesz być wypisany z listy przez właścicieli listy lub system. Dlatego powinieneś często czyścić swoją skrzynkę.
--   **Twoja skrzynka pocztowa ma jakieś ograniczenia**: nie pozwala odbierać wiadomości z załącznikami, wycina załączniki konkretnego typu lub ogranicza maksymalny rozmiar przychodzących wiadomości. W takie sytuacji, radzimy skorzystać z [trybu url](user#deliverymode.md).
+-   **Twoja skrzynka pocztowa ma jakieś ograniczenia**: nie pozwala odbierać wiadomości z załącznikami, wycina załączniki konkretnego typu lub ogranicza maksymalny rozmiar przychodzących wiadomości. W takie sytuacji, radzimy skorzystać z [trybu url](user.md#deliverymode).
 
 #### Nie możesz wysyłać wiadomości na listę
 

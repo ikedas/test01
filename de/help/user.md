@@ -103,10 +103,10 @@ Von dieser Informationsseite aus können Sie:
 
 -   Ihre [Abonnementoptionen](#options) ändern;
 -   das [Listenarchiv](arc.md) lesen;
--   [das Listenarchiv durchsuchen;](arc#arcsearch.md)
+-   [das Listenarchiv durchsuchen;](arc.md#arcsearch)
 -   [neue Nachrichten senden;](sendmsg.md)
--   Dokumente aus dem Bereich für gemeinsame Dokumente [herunterladen;](shared#shared_read.md)
--   Dokumente in den Bereich für gemeinsame Dokumente [hochladen;](shared#shared_upload.md)
+-   Dokumente aus dem Bereich für gemeinsame Dokumente [herunterladen;](shared.md#shared_read)
+-   Dokumente in den Bereich für gemeinsame Dokumente [hochladen;](shared.md#shared_upload)
 -   die Abonnenten der Liste [auflisten](#subscribers) (sofern verfügbar);
 -   [Aussetzen oder Wiederaufnehmen](suspend.md) von Abonnements einzelner Listen
 -   die Liste [abbestellen.](#unsubscribe)

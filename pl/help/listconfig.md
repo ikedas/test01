@@ -201,7 +201,7 @@ Sekcja '**Zarządzanie zwrotami**' definiuje dwa tryby:
 -   **zadania do wykonania wobec zwracających subskrybentów**: brak, powiadomienie, usunięcie z listy;
 -   **osoby do powiadamiania** w przypadku wykonania zadania: nikt, właściciele listy, administratorzy. Wysyłane powiadomienie zawiera nazwy zwracających subskrybentów i dokładne informacje o zadaniu.
 
-**Aby zarządzać zwrotami** (zerować błędy, usuwać zwracających użytkowników, polecić przypomnienie subskrypcji, itp.), **przejdź do strony '[Zwroty](admin#manage_bounces.md)'** modułu administracyjnego listy.
+**Aby zarządzać zwrotami** (zerować błędy, usuwać zwracających użytkowników, polecić przypomnienie subskrypcji, itp.), **przejdź do strony '[Zwroty](admin.md#manage_bounces)'** modułu administracyjnego listy.
 
 **UWAGA: nie zapomnij kliknąć przycisk 'Zapisz'** na dole strony, aby zatwierdzić zmiany.
 

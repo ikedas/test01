@@ -39,23 +39,23 @@ Jako subskrybent listy, możesz:
 
 -   **wyszukiwać listy mailingowe** związane z Twoimi zainteresowaniami albo konkretną sytuacją;
 -   **zarządzać swoimi subskrypcjami**:
-    -   [subskrybować](user#subscribe.md) listy,
-    -   [wypisywać się](user#unsubscribe.md) z list, które subskrybujesz,
-    -   zmieniać [opcje subskrybenta](user#options.md) dla poszczególnych list,
-    -   zmieniać [ogólne preferencje](user#pref.md), które dotyczą całego środowiska list mailingowych (nazwę, hasło, język interfejsu webowego, itp.);
+    -   [subskrybować](user.md#subscribe) listy,
+    -   [wypisywać się](user.md#unsubscribe) z list, które subskrybujesz,
+    -   zmieniać [opcje subskrybenta](user.md#options) dla poszczególnych list,
+    -   zmieniać [ogólne preferencje](user.md#pref), które dotyczą całego środowiska list mailingowych (nazwę, hasło, język interfejsu webowego, itp.);
 -   **korzystać z list mailingowych**:
     -   przeglądać [archiwa wiadomości list, których nie subskrybujesz](arc.md), jeśli archiwa są publiczne i masz prawa do ich odczytu,
     -   przeglądać [archiwa list, które subskrybujesz](arc.md),
-    -   [przeszukiwać archiwa](arc#arcsearch.md),
+    -   [przeszukiwać archiwa](arc.md#arcsearch),
     -   [wysyłać wiadomości](sendmsg.md) na listy, które subskrybujesz,
-    -   [pobierać dokumenty](shared#shared_read.md) z przestrzeni dokumentów współdzielonych,
-    -   [dodawać dokumenty](shared#shared_upload.md) do przestrzeni dokumentów współdzielonych;
+    -   [pobierać dokumenty](shared.md#shared_read) z przestrzeni dokumentów współdzielonych,
+    -   [dodawać dokumenty](shared.md#shared_upload) do przestrzeni dokumentów współdzielonych;
 -   **zarządzać listami mailingowymi**:
-    -   [tworzyć nowe listy](admin#create_list.md) (ograniczony dostęp) - podlega autoryzacji,
-    -   [konfigurować swoje listy](admin#edit_list.md),
-    -   [zarządzać subskrypcjami](admin#manage_members.md),
-    -   [zarządzać przestrzenią dokumentów współdzielonych](admin#manage_shared.md),
-    -   [moderować listy](admin#moderate.md), których jesteś moderatorem.
+    -   [tworzyć nowe listy](admin.md#create_list) (ograniczony dostęp) - podlega autoryzacji,
+    -   [konfigurować swoje listy](admin.md#edit_list),
+    -   [zarządzać subskrypcjami](admin.md#manage_members),
+    -   [zarządzać przestrzenią dokumentów współdzielonych](admin.md#manage_shared),
+    -   [moderować listy](admin.md#moderate), których jesteś moderatorem.
 
 ### <span id="roles"></span>Jak funkcjonuje usługa list mailingowych: role i odpowiedzialność
 
@@ -88,11 +88,11 @@ Administratorzy zajmują się **zarządzaniem usługą list mailingowych**. Ich 
 
 **Właściciel listy to jej twórca** lub osoba, która poprosiła o utworzenie listy lub stała się za nią odpowiedzialna. **Rola właściciela**:
 
--   **określenie [sposobu korzystania z listy](admin#edit_list.md)**;
--   **napisanie [statutu listy](admin#charter.md)** przeznaczonego dla subskrybentów;
--   **wskazanie jednego lub kilku [moderatorów](listconfig#description.md)**;
--   **zarządzanie [subskrypcjami](admin#manage_members.md)**;
--   **decyzja, czy udostępnić subskrybentom [przestrzeń dokumentów współdzielonych](admin#manage_shared.md)**;
+-   **określenie [sposobu korzystania z listy](admin.md#edit_list)**;
+-   **napisanie [statutu listy](admin.md#charter)** przeznaczonego dla subskrybentów;
+-   **wskazanie jednego lub kilku [moderatorów](listconfig.md#description)**;
+-   **zarządzanie [subskrypcjami](admin.md#manage_members)**;
+-   **decyzja, czy udostępnić subskrybentom [przestrzeń dokumentów współdzielonych](admin.md#manage_shared)**;
 -   **odpowiadanie na pytania subskrybentów i potencjalnych subskrybentów dotyczące listy;**
 -   itd.
 
@@ -100,7 +100,7 @@ Lista może mieć kilku właścicieli. Jednak **'uprzywilejowany' profil** zarez
 
 #### Moderatorzy
 
-**Moderatorzy są wskazywani przez właściciela listy**. Ich rolą jest **[kontrola wiadomości](admin#moderate.md)** wysyłanych na listę: moderator po zapoznaniu się z wiadomością **akceptuje ją lub odrzuca**. Moderacja ma miejsce zanim wiadomość zostanie rozesłana do subskrybentów. Odrzucenie wiadomości z reguły skutkuje wysłaniem do nadawcy powiadomienia z wyjaśnieniem powodów odrzucenia.
+**Moderatorzy są wskazywani przez właściciela listy**. Ich rolą jest **[kontrola wiadomości](admin.md#moderate)** wysyłanych na listę: moderator po zapoznaniu się z wiadomością **akceptuje ją lub odrzuca**. Moderacja ma miejsce zanim wiadomość zostanie rozesłana do subskrybentów. Odrzucenie wiadomości z reguły skutkuje wysłaniem do nadawcy powiadomienia z wyjaśnieniem powodów odrzucenia.
 
 Lista może mieć **jednego lub kilku moderatorów**; właściciel listy jest także moderatorem.
 
@@ -114,6 +114,6 @@ Używając usługi list mailingowych należy przestrzegać pewnych reguł:
 -   ~~If available, list owners and moderators have to conform to the 'Owner and moderator charter'.~~
 -   ~~The use of mailing lists naturally means respecting the rules of good practices as regards to email.~~
 
-Aby dowiedzieć się więcej, zapoznaj się z rozdziałami opisującymi [dobre praktyki dla subskrybentów](sendmsg#rulesuser.md) i [dobre praktyki dla właścicieli i moderatorów](admin#rulesadmin.md).
+Aby dowiedzieć się więcej, zapoznaj się z rozdziałami opisującymi [dobre praktyki dla subskrybentów](sendmsg.md#rulesuser) i [dobre praktyki dla właścicieli i moderatorów](admin.md#rulesadmin).
 
 ------------------------------------------------------------------------

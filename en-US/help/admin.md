@@ -10,7 +10,7 @@
 -   **~~moderator;~~**
 -   **~~subscriber.~~**
 
-~~Refer to the [description of each role](introduction#roles.md) to know more about this.~~
+~~Refer to the [description of each role](introduction.md#roles) to know more about this.~~
 
 ### <span id="create_list"></span>~~Requesting the creation of a mailing list~~
 
@@ -18,7 +18,7 @@
 
 ~~To request the creation of a mailing list, do as follows:~~
 
-1.  ~~Go to the **[list environment homepage](%7B%7Bpath_cgi%7D%7D/home)** and [**log on**](user#sympa_auth.md).~~
+1.  ~~Go to the **[list environment homepage](%7B%7Bpath_cgi%7D%7D/home)** and [**log on**](user.md#sympa_auth).~~
 2.  ~~In the top menu, **click on the 'Create list' link**.~~
 
     | Note |
@@ -67,7 +67,7 @@
 
 ~~To manage a list you own, do as follows:~~
 
-1.  ~~Go to the **list environment homepage** and **[log on](user#sympa_auth.md)**.~~
+1.  ~~Go to the **list environment homepage** and **[log on](user.md#sympa_auth)**.~~
 
     | Note |
     |------|
@@ -127,13 +127,13 @@
 
 ~~By default, lists have no shared document web space. Thus, you need to create it. To do that, go to the **list administration module** and click on the '**Create shared**' link.~~
 
-~~To allow subscribers to publish documents in the shared document web space, you need to **change default rights**: in the list administration module, click on '**Edit list config**' and then on '**Privileges**'. At the bottom of the page, there is a drop-down list entitled '[**Who can edit**](listconfig#docsrights.md)'; choose the '**Restricted to subscribers (private)**' option.~~
+~~To allow subscribers to publish documents in the shared document web space, you need to **change default rights**: in the list administration module, click on '**Edit list config**' and then on '**Privileges**'. At the bottom of the page, there is a drop-down list entitled '[**Who can edit**](listconfig.md#docsrights)'; choose the '**Restricted to subscribers (private)**' option.~~
 
 | Note |
 |------|
-| ~~Be careful: if you created folders before changing those rights, the folders will still be unwritable. If you want to make them writable, you will have to [change access rights](shared#acces.md) for each folder.~~ |
+| ~~Be careful: if you created folders before changing those rights, the folders will still be unwritable. If you want to make them writable, you will have to [change access rights](shared.md#acces) for each folder.~~ |
 
-~~You might also want to [set up **quotas**](listconfig#docsrights.md) for the shared document web space on the 'Privileges' page of the 'Edit list config' section.~~
+~~You might also want to [set up **quotas**](listconfig.md#docsrights) for the shared document web space on the 'Privileges' page of the 'Edit list config' section.~~
 
 ~~To **know everything about the management of the shared document web space** (how to organize it, change access rights, name documents, etc.), refer to the '[Using the shared document web space](shared.md)' section of the User guide.~~
 
@@ -181,7 +181,7 @@
 
 | Note |
 |------|
-| ~~You can also configure an automatic subscription reminder through the '[Miscellaneous](listconfig#other.md)' page of the 'Edit list config' section.~~ |
+| ~~You can also configure an automatic subscription reminder through the '[Miscellaneous](listconfig.md#other)' page of the 'Edit list config' section.~~ |
 
 ~~To **unsubscribe subscribers** from this page, select them by ticking the boxes in front of their names and click on the '**Delete selected email addresses**' button.~~
 
@@ -205,7 +205,7 @@
 -   ~~the number or errors;~~
 -   ~~the period during which errors occurred.~~
 
-~~You can **check the latest error** or **reset errors**. If you reset errors, the subscriber's [score](listconfig#bouncers.md) will be reset to zero.~~
+~~You can **check the latest error** or **reset errors**. If you reset errors, the subscriber's [score](listconfig.md#bouncers) will be reset to zero.~~
 
 ~~To manage bouncing addresses more easily, go to the '[Bounces](#manage_bounces)' page of the list administration module.~~
 
@@ -248,9 +248,9 @@
 
 ~~If you wish to customize the rejection message that is sent to a message author, you can do so via the '**Manage rejection messages**' button. The message management page will let define a set of rejection messages and define the default one.~~
 
-~~**Reminder**: you can [add or remove moderators](listconfig#description.md) through the list administration module. To do that, from the list information page, click on '**Admin**', on '**Edit list config**', and then on '**List definition**'.~~
+~~**Reminder**: you can [add or remove moderators](listconfig.md#description) through the list administration module. To do that, from the list information page, click on '**Admin**', on '**Edit list config**', and then on '**List definition**'.~~
 
-~~It is also possible to **process messages after their distribution on the list**; this can be useful when a list is not moderated. If you want to **delete a message**, [search for it in the online message archive](arc#arcsearch.md) and click on the '**Tag this mail for deletion**' button in the upper right corner of the message. A confirmation message displays; click on 'OK'. The message will be deleted after a few seconds. **Be careful: this operation is irreversible!!! If you delete a message, you will not be able to retrieve it.**~~
+~~It is also possible to **process messages after their distribution on the list**; this can be useful when a list is not moderated. If you want to **delete a message**, [search for it in the online message archive](arc.md#arcsearch) and click on the '**Tag this mail for deletion**' button in the upper right corner of the message. A confirmation message displays; click on 'OK'. The message will be deleted after a few seconds. **Be careful: this operation is irreversible!!! If you delete a message, you will not be able to retrieve it.**~~
 
 #### <span id="manage_archives"></span>~~Managing the message archive~~
 

@@ -103,10 +103,10 @@ Des d'aquesta pàgina d'informació, podreu:
 
 -   canviar les [opcions de subscripció](#options);
 -   llegir els [arxius de la llista](arc.md);
--   [cercar en l'arxiu dels missatges](arc#arcsearch.md);
+-   [cercar en l'arxiu dels missatges](arc.md#arcsearch);
 -   [enviar nous missatges](sendmsg.md);
--   [baixar-se documents](shared#shared_read.md) de l'espai web per a compartir documents;
--   [carregar documents](shared#shared_upload.md) en l'espai compartit de documents del web;
+-   [baixar-se documents](shared.md#shared_read) de l'espai web per a compartir documents;
+-   [carregar documents](shared.md#shared_upload) en l'espai compartit de documents del web;
 -   [veure els membres](#subscribers) de la llista (si l'opció està disponible);
 -   ~~[suspend or resume](suspend.md) your subscription of each list;~~
 -   [donar-se de baixa](#unsubscribe) de la llista.

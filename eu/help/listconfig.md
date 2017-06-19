@@ -201,7 +201,7 @@ Aukera honek bai testu artxiboetara bai webeko artxiboetara eragiten die, baita 
 -   **dagokion harpidedunarekin burutuko den ataza**: atazarik ez, oharra, zerrendatik ezabatu;
 -   ataza burutzen denean **ohartaraziko den pertsona**: inor ez, zerrendako jabeak, zerrenda kudeatzaileak. Ataza burutzean bidaltzen den ohartarazpenak eragindako harpidedun guztien izenak eta atazari buruzko informazio zehatza dauka.
 
-**Erreboteak kudeatzeko** (harpidedun baten erroreak berrezarri, errebotatzen duen harpideduna ez-harpidetu, harpidetzaren oroigarria eskatu, etab.), joan kudeaketa moduluko '[Erreboteak](admin#manage_bounces.md)' orrira.
+**Erreboteak kudeatzeko** (harpidedun baten erroreak berrezarri, errebotatzen duen harpideduna ez-harpidetu, harpidetzaren oroigarria eskatu, etab.), joan kudeaketa moduluko '[Erreboteak](admin.md#manage_bounces)' orrira.
 
 **KONTUZ: ez ahaztu 'Eguneratu' botoia sakatzen**, orriaren behealdean, zure aldaketa guztiak gordetzeko.
 

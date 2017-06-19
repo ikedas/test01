@@ -39,23 +39,23 @@ Quan estigueu subscrit a un servei de llista de correu, podreu:
 
 -   **cercar llistes de correu** segons els vostres interessos o situació particular;
 -   **gestionar les subscripcions**:
-    -   [subscriure-us](user#subscribe.md) a les llistes,
-    -   [donar-se de baixa](user#unsubscribe.md) de les llistes en què us heu inscrit,
-    -   canviar les [opcions de subscripció](user#options.md) llista per llista,
-    -   canviar les [preferències generals](user#pref.md), que afecten tot l'entorn de la llista de correu (nom, contrasenya, llengua de la interfície web de la llista de correu, etc.);
+    -   [subscriure-us](user.md#subscribe) a les llistes,
+    -   [donar-se de baixa](user.md#unsubscribe) de les llistes en què us heu inscrit,
+    -   canviar les [opcions de subscripció](user.md#options) llista per llista,
+    -   canviar les [preferències generals](user.md#pref), que afecten tot l'entorn de la llista de correu (nom, contrasenya, llengua de la interfície web de la llista de correu, etc.);
 -   **emprar les llistes de correu**:
     -   llegir els [arxius del missatges en línia de les llistes a què no esteu subscrits](arc.md) se l'arxiu és públic i si els drets que teniu us permeten accedir a aquests llistes,
     -   llegir l'[arxiu de les llistes a què esteu subscrits](arc.md),
-    -   realitzar [cerques en l'arxiu de la llista](arc#arcsearch.md),
+    -   realitzar [cerques en l'arxiu de la llista](arc.md#arcsearch),
     -   [enviar missatges](sendmsg.md) a les llistes que esteu subscrits,
-    -   [baixar-se documents](shared#shared_read.md) de l'espai compartit de documents del web,
-    -   [carregar documents](shared#shared_upload.md) en l'espai compartit de documents del web;
+    -   [baixar-se documents](shared.md#shared_read) de l'espai compartit de documents del web,
+    -   [carregar documents](shared.md#shared_upload) en l'espai compartit de documents del web;
 -   **gestionar llistes de correu**:
-    -   [crear llistes noves](admin#create_list.md) (accés restringit) - s'ha d'estar autoritzat,
-    -   [configurar les llistes](admin#edit_list.md) que teniu,
-    -   [gestionar subscripcions](admin#manage_members.md),
-    -   [gestionar l'espai web per a compartir documents](admin#manage_shared.md),
-    -   [moderar les llistes](admin#moderate.md) de què sou moderador.
+    -   [crear llistes noves](admin.md#create_list) (accés restringit) - s'ha d'estar autoritzat,
+    -   [configurar les llistes](admin.md#edit_list) que teniu,
+    -   [gestionar subscripcions](admin.md#manage_members),
+    -   [gestionar l'espai web per a compartir documents](admin.md#manage_shared),
+    -   [moderar les llistes](admin.md#moderate) de què sou moderador.
 
 ### <span id="roles"></span>Com funciona el servei de llistes de correu: funcions i responsabilitats
 
@@ -88,11 +88,11 @@ Els administradors s'encarrguen de **gestionar el servei de llistes de correu**.
 
 **El propietari de la llista, normalment, és el creador** o, si no ho és el creador, és qui haja sol·licitat que es cree la llista o qui s'en haja fet responsable. **Les funcions que té són**:
 
--   **definir [com s'ha d'emprar la llista](admin#edit_list.md)**;
--   **escriure les [normes de funcionament de la llista](admin#charter.md)** adreçades als subscriptors;
--   **dessignar un o diversos [moderadors](listconfig#description.md)**;
--   **gestionar [les subcripcions i les baixes](admin#manage_members.md)**;
--   **decidir si és rellevant crear un [espai web per a compartir documents](admin#manage_shared.md)** disponible per als subscriptors;
+-   **definir [com s'ha d'emprar la llista](admin.md#edit_list)**;
+-   **escriure les [normes de funcionament de la llista](admin.md#charter)** adreçades als subscriptors;
+-   **dessignar un o diversos [moderadors](listconfig.md#description)**;
+-   **gestionar [les subcripcions i les baixes](admin.md#manage_members)**;
+-   **decidir si és rellevant crear un [espai web per a compartir documents](admin.md#manage_shared)** disponible per als subscriptors;
 -   **respondres les preguntes sobre la llista dels subscriptors i potencials subscriptors;**
 -   etcetera.
 
@@ -100,7 +100,7 @@ Una llista pot tenir diversos propietaris. Tot i això, el **perfil «Privilegia
 
 #### Moderadors
 
-**Els moderadors els elegeix el propietari de la llista**. **S'encarreguen de [controlar la rellevància dels missatges](admin#moderate.md)** que s'envien a la llista: després de llegir-los, **decideixen si els accepten o els rebutgen**. El procés de moderació es fa abans que els missatges no s'envien als subscriptors. Després de rebutjar un missatge es pot enviar un avís al remitent per explicar-li la causa del rebuig.
+**Els moderadors els elegeix el propietari de la llista**. **S'encarreguen de [controlar la rellevància dels missatges](admin.md#moderate)** que s'envien a la llista: després de llegir-los, **decideixen si els accepten o els rebutgen**. El procés de moderació es fa abans que els missatges no s'envien als subscriptors. Després de rebutjar un missatge es pot enviar un avís al remitent per explicar-li la causa del rebuig.
 
 Una llista por tenir **un o diversos moderadors**; en general, el propietari de la llista també és un moderador.
 
@@ -114,6 +114,6 @@ La utilització del servei de llistes de correu implica l'aceptació de unes nor
 -   ~~If available, list owners and moderators have to conform to the 'Owner and moderator charter'.~~
 -   ~~The use of mailing lists naturally means respecting the rules of good practices as regards to email.~~
 
-Per saber més, cal anar a la secció dedicada a [bones pràctiques per als subscriptors](sendmsg#rulesuser.md) i la secció de [bones pràctiques per als propietaris i moderadors](admin#rulesadmin.md).
+Per saber més, cal anar a la secció dedicada a [bones pràctiques per als subscriptors](sendmsg.md#rulesuser) i la secció de [bones pràctiques per als propietaris i moderadors](admin.md#rulesadmin).
 
 ------------------------------------------------------------------------

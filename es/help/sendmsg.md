@@ -43,13 +43,13 @@ Es mejor que siempre **respetes un periodo de observación** de unos pocos días
 
 ##### Privacidad
 
-Todos los mensajes enviados a la lista se mantienen en el archivo de la lista. **Así que, el simple hecho de enviar un mensaje constituye una autorización expresa de distribución y reproducción en el archivo**. Sin embargo, puedes solicitar el borrado de cualquier mensaje enviado por ti directamente desde el archivo de la lista (botón 'Marcar este correo para borrado') o [contactando con los dueños de la lista](faquser#contactadmin.md).
+Todos los mensajes enviados a la lista se mantienen en el archivo de la lista. **Así que, el simple hecho de enviar un mensaje constituye una autorización expresa de distribución y reproducción en el archivo**. Sin embargo, puedes solicitar el borrado de cualquier mensaje enviado por ti directamente desde el archivo de la lista (botón 'Marcar este correo para borrado') o [contactando con los dueños de la lista](faquser.md#contactadmin).
 
 Si envías un mensaje a la lista, **tu dirección de correo electrónico se mostrará de forma natural en la cabecera de tu mensaje y en el archivo web de la lista**. Sin embargo, a no ser que se especifique lo contrario, tu dirección de correo electrónico y otros datos que proporcionaste cuando te suscribiste no serán divulgados a terceras partes sin tu consentimiento.
 
 | Note |
 |------|
-| En la mayoría de paises, tu información personal está protegida a través de una serie de leyes. Por ejemplo, en los Estados Unidos, se aplica el Privacy Act of 1974. En la Unión Europea, la "Directiva 95/46/EC del Parlamento Europeo y del Consejo del 24 de Octubre de 1995 en la protección de individuos en relación al procesamiento de datos personales y de la libertad de movimiento de dichos datos" así como leyes nacionales. Para conocer mas sobre este tema, [contacte con los duños de la lista](faquser#contactadmin.md). |
+| En la mayoría de paises, tu información personal está protegida a través de una serie de leyes. Por ejemplo, en los Estados Unidos, se aplica el Privacy Act of 1974. En la Unión Europea, la "Directiva 95/46/EC del Parlamento Europeo y del Consejo del 24 de Octubre de 1995 en la protección de individuos en relación al procesamiento de datos personales y de la libertad de movimiento de dichos datos" así como leyes nacionales. Para conocer mas sobre este tema, [contacte con los duños de la lista](faquser.md#contactadmin). |
 
 Como cualquier correspondencia, **debes firmar tus mensajes**. En una lista profesional, **es costumbre mencionar el nombre de la organización a la que perteneces así como tu categoría profesional, además del nombre**. Sin embargo, **plantéate cuando es relevante dar tus datos completos** (dirección, número de teléfono, etc): estos permanecerán disponibles en cualquier momento a través del archivo de la lista...
 

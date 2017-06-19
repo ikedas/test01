@@ -10,7 +10,7 @@ Recuerda: un servicio de listas de correo involucra a cuatro tipos de roles:
 -   **moderador;**
 -   **suscriptor;**
 
-Revisa la [descripción de cada rol](introduction#roles.md) para saber más sobre esto.
+Revisa la [descripción de cada rol](introduction.md#roles) para saber más sobre esto.
 
 ### <span id="create_list"></span>Solicitar la creación de una lista de correo
 
@@ -18,7 +18,7 @@ La **solicitud de creación de una lista** puede estar **sujeta a condiciones**.
 
 Para solicitar la creación de una lista de correo, haz lo siguiente:
 
-1.  Ve a la **[página principal del entorno web](%7B%7Bpath_cgi%7D%7D/home)** y [**accede**](user#sympa_auth.md).
+1.  Ve a la **[página principal del entorno web](%7B%7Bpath_cgi%7D%7D/home)** y [**accede**](user.md#sympa_auth).
 2.  En el menú superior, **pincha en el enlace 'Crear lista'**.
 
     | Note |
@@ -67,7 +67,7 @@ Tras esto, debes **esperar a la parobación de la lista por parte de uno de los 
 
 Para gestionar una lista de la que eres dueño, haz lo siguiente:
 
-1.  Ve a la **página de inicio de la lista** y **[accede](user#sympa_auth.md)**.
+1.  Ve a la **página de inicio de la lista** y **[accede](user.md#sympa_auth)**.
 
     | Note |
     |------|
@@ -127,13 +127,13 @@ Por defecto, Sympa utiliza archivos predefinidos; en este caso, los archivos esp
 
 Por defecto, las listas no tiene espacio web compartido de documentos. Así que tienes que crearlo. Para hacerlo, ve al **módulo de administración** y pincha en el enlace '**Create shared**'.
 
-Para permitir que los suscriptores publiquen documentos en el espacio web compartido, necesitas **cambiar los permisos por defecto**: en el módulo de administración de la lista, pincha en '**Editar configuración de la lista**' y luego en ''. Al principio de la página, existe un desplegable titulado '[**Quién puede editar**](listconfig#docsrights.md)'; elige la opción '**Restringido a suscriptores**'
+Para permitir que los suscriptores publiquen documentos en el espacio web compartido, necesitas **cambiar los permisos por defecto**: en el módulo de administración de la lista, pincha en '**Editar configuración de la lista**' y luego en ''. Al principio de la página, existe un desplegable titulado '[**Quién puede editar**](listconfig.md#docsrights)'; elige la opción '**Restringido a suscriptores**'
 
 | Note |
 |------|
-| Ten cuidado: si creaste carpetas antes de cambiar estos permisos, las carpetas seguirán sin poder escribirse en ellas. Si quieres que tengan permisos de escritura, tendrás que [cambiar los permisos de acceso](shared#acces.md) para cada carpeta. |
+| Ten cuidado: si creaste carpetas antes de cambiar estos permisos, las carpetas seguirán sin poder escribirse en ellas. Si quieres que tengan permisos de escritura, tendrás que [cambiar los permisos de acceso](shared.md#acces) para cada carpeta. |
 
-Puede que también quieras [establecer **cuotas**](listconfig#docsrights.md) para el espacio web compartido de docuemtnso en la página 'Privilegios' de la sección 'Editar configuración de la lista'.
+Puede que también quieras [establecer **cuotas**](listconfig.md#docsrights) para el espacio web compartido de docuemtnso en la página 'Privilegios' de la sección 'Editar configuración de la lista'.
 
 Para **conocer todo lo necesario para la gestión del espacio web compartido de documentos**(cómo organizarlo, cambiar permisos de acceso, nombres de documentos, etc.), revisa la sección '[Utilizar el espacio web compartido de documentos](shared.md)' de la Guía de usuario.
 
@@ -181,7 +181,7 @@ Para **enviar un recordatorio de suscripción a todos los suscriptores**, pincha
 
 | Note |
 |------|
-| También puedes configurar un recordatorio de suscripción automático a travéz de la página '[Miscelánea](listconfig#other.md)' de la sección 'Editar configuración de la lista'. |
+| También puedes configurar un recordatorio de suscripción automático a travéz de la página '[Miscelánea](listconfig.md#other)' de la sección 'Editar configuración de la lista'. |
 
 Para **dar de baja suscriptores** desde esta página, selecciónalos activando la caja situada al lado de sus nombre y haz clic en el botón '**Borrar las direcciones de correo seleccionadas**'.
 
@@ -205,7 +205,7 @@ La información mostrada incluye:
 -   el número de errores;
 -   el periodo en el que ocurrieron los errores.
 
-Puedes **comprobar el último error** o **reiniciar los errores**. Si reinicias los errores, el [contador](listconfig#bouncers.md) del suscriptor se establecerá a cero.
+Puedes **comprobar el último error** o **reiniciar los errores**. Si reinicias los errores, el [contador](listconfig.md#bouncers) del suscriptor se establecerá a cero.
 
 Para gestionar más fácilmente las direcciones que generan rebotes, ve a la página '[Rebotes](#manage_bounces)' del módulo de administración de la lista.
 
@@ -248,9 +248,9 @@ Activando la casilla '**Añadir a la lista negra**' añade al autor del mensaje 
 
 Si deseas personalizra el mensaje de rechazo que se envía al autor del mensaje a moderar, puedes hacerlo a través del botón '**Gestionar mensajes de rechazo**. La página de gestión de mensajes permite definir un conjunto de mensajes de rechazo así como definir uno por defecto.
 
-**Recuerda**: puedes [añadir o quitar moderadores](listconfig#description.md) a través del módulo de administración de la lista. Para hacer eso, desde la página de información de la lista, pincha en '**Admin**', en '**Editar configuración de la lista**', y luego en '**Definición de la lista**'.
+**Recuerda**: puedes [añadir o quitar moderadores](listconfig.md#description) a través del módulo de administración de la lista. Para hacer eso, desde la página de información de la lista, pincha en '**Admin**', en '**Editar configuración de la lista**', y luego en '**Definición de la lista**'.
 
-También es posible **procesar mensajes tras su distribución a la lista**; esto puede ser útil cuando una lista no está moderada. Si quieres **borrar un mensaje**,[búscalo en el archivo we de mensajes](arc#arcsearch.md) y pincha en el botón '**Marcer este mail para borrado**' en la esquina superior derecha del mensaje. Se mostrará un mensaje de confirmación; pincha en 'OK'. El mensaje se borrará tras unos segundos.**Ten cuidado: ¡¡¡esta operación es irreversible!!!. Si borras un mensaje, no podrás recuperarlo.**
+También es posible **procesar mensajes tras su distribución a la lista**; esto puede ser útil cuando una lista no está moderada. Si quieres **borrar un mensaje**,[búscalo en el archivo we de mensajes](arc.md#arcsearch) y pincha en el botón '**Marcer este mail para borrado**' en la esquina superior derecha del mensaje. Se mostrará un mensaje de confirmación; pincha en 'OK'. El mensaje se borrará tras unos segundos.**Ten cuidado: ¡¡¡esta operación es irreversible!!!. Si borras un mensaje, no podrás recuperarlo.**
 
 #### <span id="manage_archives"></span>Gestionar el archivo de mensajes
 

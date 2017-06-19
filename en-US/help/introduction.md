@@ -39,23 +39,23 @@
 
 -   ~~search for mailing lists matching your main interests or your particular situation;~~
 -   **~~manage your subscriptions:~~**
-    -   ~~[subscribe](user#subscribe.md) to lists,~~
-    -   ~~[unsubscribe](user#unsubscribe.md) from lists to which you are subscribed,~~
-    -   ~~change your [subscriber options](user#options.md) list by list,~~
-    -   ~~change your [general preferences](user#pref.md), which apply to the whole mailing list environment (name, password, language of the mailing list web interface, etc.);~~
+    -   ~~[subscribe](user.md#subscribe) to lists,~~
+    -   ~~[unsubscribe](user.md#unsubscribe) from lists to which you are subscribed,~~
+    -   ~~change your [subscriber options](user.md#options) list by list,~~
+    -   ~~change your [general preferences](user.md#pref), which apply to the whole mailing list environment (name, password, language of the mailing list web interface, etc.);~~
 -   **~~use mailing lists~~**:
     -   ~~read the [online message archive of lists to which you are not subscribed](arc.md) if that archive is public and if your personal rights allow you to access those lists,~~
     -   ~~read the [archive of lists to which you are subscribed](arc.md),~~
-    -   ~~perform [searches in the list archive](arc#arcsearch.md),~~
+    -   ~~perform [searches in the list archive](arc.md#arcsearch),~~
     -   ~~[send messages](sendmsg.md) to lists to which you are subscribed,~~
-    -   ~~[download documents](shared#shared_read.md) from the shared document web space,~~
-    -   ~~[upload documents](shared#shared_upload.md) in the shared document web space;~~
+    -   ~~[download documents](shared.md#shared_read) from the shared document web space,~~
+    -   ~~[upload documents](shared.md#shared_upload) in the shared document web space;~~
 -   **~~manage mailing lists~~**:
-    -   ~~[create new lists](admin#create_list.md) (restricted access) - subject to authorization,~~
-    -   ~~[configure lists](admin#edit_list.md) you own,~~
-    -   ~~[manage subscriptions](admin#manage_members.md),~~
-    -   ~~[manage the shared document web space](admin#manage_shared.md),~~
-    -   ~~[moderate lists](admin#moderate.md) for which you are a moderator.~~
+    -   ~~[create new lists](admin.md#create_list) (restricted access) - subject to authorization,~~
+    -   ~~[configure lists](admin.md#edit_list) you own,~~
+    -   ~~[manage subscriptions](admin.md#manage_members),~~
+    -   ~~[manage the shared document web space](admin.md#manage_shared),~~
+    -   ~~[moderate lists](admin.md#moderate) for which you are a moderator.~~
 
 ### <span id="roles"></span>~~How the mailing list service works: roles and responsibilities~~
 
@@ -88,11 +88,11 @@
 
 ~~The list owner is generally its creator or, failing him/her, the person who requested the list creation or who became responsible for it. **His/her role**:~~
 
--   ~~**define the [way the list will be used](admin#edit_list.md)**;~~
--   ~~**write a [list charter](admin#charter.md)** aimed at subscribers;~~
--   ~~**appoint one or several [moderators](listconfig#description.md)**;~~
--   ~~**manage [subscriptions and unsubscriptions](admin#manage_members.md)**;~~
--   ~~**decide whether it is relevant to put a [shared document web space](admin#manage_shared.md)** at the subscribers' disposal;~~
+-   ~~**define the [way the list will be used](admin.md#edit_list)**;~~
+-   ~~**write a [list charter](admin.md#charter)** aimed at subscribers;~~
+-   ~~**appoint one or several [moderators](listconfig.md#description)**;~~
+-   ~~**manage [subscriptions and unsubscriptions](admin.md#manage_members)**;~~
+-   ~~**decide whether it is relevant to put a [shared document web space](admin.md#manage_shared)** at the subscribers' disposal;~~
 -   ~~**answer questions from subscribers and potential subscribers about the list;**~~
 -   ~~etc.~~
 
@@ -100,7 +100,7 @@
 
 #### ~~Moderators~~
 
-~~**Moderators are appointed by the list owner**. They are **in charge of [controlling the relevancy of the messages](admin#moderate.md)** sent to the list: after reading them, **they choose to accept or to reject them** . Moderation occurs before the message is actually sent to subscribers. Rejection of a message is possibly followed by a notice to the sender in order to explain the reason for that rejection.~~
+~~**Moderators are appointed by the list owner**. They are **in charge of [controlling the relevancy of the messages](admin.md#moderate)** sent to the list: after reading them, **they choose to accept or to reject them** . Moderation occurs before the message is actually sent to subscribers. Rejection of a message is possibly followed by a notice to the sender in order to explain the reason for that rejection.~~
 
 ~~A list can have **one or several moderators**; generally, the list owner is also a moderator.~~
 
@@ -114,6 +114,6 @@
 -   ~~If available, list owners and moderators have to conform to the 'Owner and moderator charter'.~~
 -   ~~The use of mailing lists naturally means respecting the rules of good practices as regards to email.~~
 
-~~To know more, refer to the section dedicated to [good practices for subscribers](sendmsg#rulesuser.md) and to the section about [good practices for owners and moderators](admin#rulesadmin.md).~~
+~~To know more, refer to the section dedicated to [good practices for subscribers](sendmsg.md#rulesuser) and to the section about [good practices for owners and moderators](admin.md#rulesadmin).~~
 
 ------------------------------------------------------------------------

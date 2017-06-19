@@ -201,7 +201,7 @@ La secció «**Gestió de retornats**» defineix dos ràtios:
 -   les **mesures que es prenen amb els subscriptors involucrats** són: no hi ha mesures, avís, eliminació de la llista;
 -   **persona que rep l'avís** quan es pren la mesura: ningú, els propietaris de la llista, els administradors. L'avís que s'envia quan es pren una mesura inclou els noms de tots els subscriptors implicats així com informació precisa sobre les mesures.
 
-**Per a gestionar els retornats** (posar a cero els errors d'alguns subscriptors, donar de baixa els subscriptors inaccesibles, demana un recordatori de subscripció, etc.), **aneu a la pàgina «[Retornats](admin#manage_bounces.md)»** del mòdul d'administració de la llista.
+**Per a gestionar els retornats** (posar a cero els errors d'alguns subscriptors, donar de baixa els subscriptors inaccesibles, demana un recordatori de subscripció, etc.), **aneu a la pàgina «[Retornats](admin.md#manage_bounces)»** del mòdul d'administració de la llista.
 
 **Atenció: no oblideu fer clic en el botó «Actualitzar»** al final de la pàgina per a desar tots els canvis.
 

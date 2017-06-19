@@ -103,10 +103,10 @@ Pour voir toutes les listes auxquelles vous êtes abonné, vous devez tout d'abo
 
 -   modifier vos [options d'abonné](#options) ;
 -   [lire les archives](arc.md) de la liste ;
--   effectuer une [recherche dans les archives](arc#search.md) ;
+-   effectuer une [recherche dans les archives](arc.md#search) ;
 -   [envoyer des messages](sendmsg.md) ;
--   [télécharger des documents](shared#downloaddoc.md) à partir de l'espace partagé ;
--   [publier des documents](shared#publishdoc.md) dans l'espace de stockage partagé ;
+-   [télécharger des documents](shared.md#downloaddoc) à partir de l'espace partagé ;
+-   [publier des documents](shared.md#publishdoc) dans l'espace de stockage partagé ;
 -   accéder à la [liste des abonnés](#subscribers) (lorsqu'elle est disponible) ;
 -   [suspendre ou reprendre](suspend.md) votre abonnement pour chaque liste;
 -   [vous désabonner](#unsubscribe) de la liste.

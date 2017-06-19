@@ -28,14 +28,14 @@
     -   ~~Maybe you are subscribed with an email address other than the one you are checking.~~
     -   ~~Maybe your subscription request was rejected by the list owners.~~
 
-    ~~In any case, try and [subscribe](user#subscribe.md) again.~~
+    ~~In any case, try and [subscribe](user.md#subscribe) again.~~
 -   <span id="notsubscribedanymore"></span>**~~You are not subscribed to the list anymore~~**:
-    -   ~~If your address has been bouncing for a while, you might have been automatically unsubscribed by the system (or even by the list owners). Try and [subscribe again](user#subscribe.md) after ensuring that your email address will not be in trouble again.~~
+    -   ~~If your address has been bouncing for a while, you might have been automatically unsubscribed by the system (or even by the list owners). Try and [subscribe again](user.md#subscribe) after ensuring that your email address will not be in trouble again.~~
     -   ~~If you have not respected the different rules applying to the mailing list, the list owners might have "banned" you...~~
-    -   ~~You might also have been arbitrarily unsubscribed by an ill-intentioned person, in case the list is not configured to send a confirmation request for any subscription and unsubscription request... In that case, try and [subscribe](user#subscribe.md) again.~~
--   ~~**Your [delivery mode](user#deliverymode.md) does not allow you to receive messages**: for example, it is the case with the 'Nomail' delivery mode.~~
+    -   ~~You might also have been arbitrarily unsubscribed by an ill-intentioned person, in case the list is not configured to send a confirmation request for any subscription and unsubscription request... In that case, try and [subscribe](user.md#subscribe) again.~~
+-   ~~**Your [delivery mode](user.md#deliverymode) does not allow you to receive messages**: for example, it is the case with the 'Nomail' delivery mode.~~
 -   ~~**Your inbox is full**. Be careful: when your inbox is not completely full, you receive only small messages, which makes it difficult to understand what actually is the problem... Furthermore, if your email address causes trouble on a regular basis, you might be unsubscribed by the list owners or by the system. Thus, you should clean your inbox frequently.~~
--   ~~**Your inbox is subject to some restrictions**: it does not allow you to receive messages with attachments, bans some types of attachments or limits the maximum size of incoming messages; in that case, we advise you to choose the [Urlize delivery mode](user#deliverymode.md).~~
+-   ~~**Your inbox is subject to some restrictions**: it does not allow you to receive messages with attachments, bans some types of attachments or limits the maximum size of incoming messages; in that case, we advise you to choose the [Urlize delivery mode](user.md#deliverymode).~~
 
 #### ~~You can not send messages to a list~~
 

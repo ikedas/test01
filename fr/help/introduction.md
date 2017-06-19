@@ -39,23 +39,23 @@ Une fois abonné à un service de listes, vous pouvez :
 
 -   **chercher des listes de diffusion** correspondant à vos centres d'intérêts ou à votre situation particulière ;
 -   **gérer vos abonnements** :
-    -   [vous abonner](user#subscribe.md) à des listes,
-    -   [vous désabonner](user#unsubscribe.md) de listes auxquelles vous êtes abonné,
-    -   modifier vos [options d'abonné](user#options.md) liste par liste,
-    -   modifier vos [préférences générales](user#pref.md) relatives à votre environnement de listes (nom, mot de passe, langue de l'interface web du serveur de listes, etc.) ;
+    -   [vous abonner](user.md#subscribe) à des listes,
+    -   [vous désabonner](user.md#unsubscribe) de listes auxquelles vous êtes abonné,
+    -   modifier vos [options d'abonné](user.md#options) liste par liste,
+    -   modifier vos [préférences générales](user.md#pref) relatives à votre environnement de listes (nom, mot de passe, langue de l'interface web du serveur de listes, etc.) ;
 -   **utiliser des listes de diffusion** ::
     -   consulter les [archives des listes auxquelles vous n'êtes pas abonné](arc.md) (c'est-à-dire lire en ligne les archives des messages envoyés sur ces listes) si ces archives sont publiques et que vos droits vous permettent d'accéder à ces listes,
     -   consulter les [archives des listes auxquelles vous êtes abonné](arc.md),
-    -   effectuer des [recherches dans les archives des listes](arc#arcsearch.md),
+    -   effectuer des [recherches dans les archives des listes](arc.md#arcsearch),
     -   [envoyer des messages](sendmsg.md) aux listes auxquelles vous êtes abonné,
-    -   [télécharger des documents](shared#shared_read.md) à partir de l'espace de stockage partagé,
-    -   [publier des documents](shared#publishdoc.md) dans l'espace de stockage partagé ;
+    -   [télécharger des documents](shared.md#shared_read) à partir de l'espace de stockage partagé,
+    -   [publier des documents](shared.md#publishdoc) dans l'espace de stockage partagé ;
 -   **administrer des listes de diffusion** ::
-    -   [créer de nouvelles listes](admin#create_list.md) (accès restreint) - soumis à autorisation,
-    -   [configurer](admin#edit_list.md) des listes dont vous êtes propriétaire,
-    -   [gérer des abonnements](admin#manage_members.md),
-    -   [gérer l'espace de stockage partagé](admin#manage_shared.md),
-    -   [modérer](admin#moderate.md) des listes dont vous êtes modérateur.
+    -   [créer de nouvelles listes](admin.md#create_list) (accès restreint) - soumis à autorisation,
+    -   [configurer](admin.md#edit_list) des listes dont vous êtes propriétaire,
+    -   [gérer des abonnements](admin.md#manage_members),
+    -   [gérer l'espace de stockage partagé](admin.md#manage_shared),
+    -   [modérer](admin.md#moderate) des listes dont vous êtes modérateur.
 
 ### <span id="roles"></span>Fonctionnement des listes de diffusion : qui fait quoi ?
 
@@ -88,11 +88,11 @@ Les listmasters sont les personnes qui s'occupent de la **gestion d'un service d
 
 **Le propriétaire d'une liste est généralement son créateur**, ou à défaut, la personne qui a exprimé le souhait que la liste soit créée ou qui en a hérité. **Son rôle** :
 
--   **définir le [mode de fonctionnement](admin#edit_list.md) de la liste** ;
--   **rédiger une [charte d'utilisation](admin#charter.md)** de la liste à destination des abonnés ;
+-   **définir le [mode de fonctionnement](admin.md#edit_list) de la liste** ;
+-   **rédiger une [charte d'utilisation](admin.md#charter)** de la liste à destination des abonnés ;
 -   **désigner un ou plusieurs modérateur(s)** ;
--   **gérer les [abonnements et désabonnements](admin#manage_members.md)** ;
--   **décider de mettre ou non à la disposition des abonnés un [espace de stockage partagé](admin#manage_shared.md)** ;
+-   **gérer les [abonnements et désabonnements](admin.md#manage_members)** ;
+-   **décider de mettre ou non à la disposition des abonnés un [espace de stockage partagé](admin.md#manage_shared)** ;
 -   **répondre aux questions des abonnés et futurs abonnés à propos de la liste ;**
 -   ~~etc.~~
 
@@ -100,7 +100,7 @@ Une liste peut avoir plusieurs propriétaires. Néanmoins, le **profil 'Privileg
 
 #### Modérateurs
 
-**Les modérateurs sont désignés par le propriétaire de la liste**. Ils sont **chargés de [réguler la diffusion des messages](admin#moderate.md)** envoyés sur la liste : après lecture, **ils peuvent décider de les accepter ou de les rejeter**. La modération intervient avant la diffusion du message sur la liste. Le rejet d'un message est éventuellement suivi d'une notification à l'expéditeur du message afin de l'informer des raisons de ce rejet.
+**Les modérateurs sont désignés par le propriétaire de la liste**. Ils sont **chargés de [réguler la diffusion des messages](admin.md#moderate)** envoyés sur la liste : après lecture, **ils peuvent décider de les accepter ou de les rejeter**. La modération intervient avant la diffusion du message sur la liste. Le rejet d'un message est éventuellement suivi d'une notification à l'expéditeur du message afin de l'informer des raisons de ce rejet.
 
 Une liste peut avoir **un ou plusieurs modérateurs** ; généralement, le propriétaire de la liste en est aussi le modérateur.
 
@@ -114,6 +114,6 @@ L'utilisation d'un service de listes de diffusion implique le respect d'un certa
 -   Si elle est disponible, les modérateurs doivent se conformer à la charte des propriétaires et des modérateurs.
 -   L'utilisation des listes de diffusion implique de respecter les règles de bonne utilisation de la messagerie (la « Nétiquette »).
 
-Pour en savoir plus, reportez-vous à la section consacrée aux [bonnes pratiques des propriétaires et modérateurs](admin#rulesadmin.md).
+Pour en savoir plus, reportez-vous à la section consacrée aux [bonnes pratiques des propriétaires et modérateurs](admin.md#rulesadmin).
 
 ------------------------------------------------------------------------

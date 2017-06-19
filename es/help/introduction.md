@@ -39,23 +39,23 @@ Una vez suscrito a una lista de correo, puedes:
 
 -   **buscar una lista de correo** según tus intereses principales o tu situación particular;
 -   **gestionar tus suscripciones**:
-    -   [suscribirte](user#subscribe.md) a listas,
-    -   [darte de baja](user#unsubscribe.md) de listas a las que te encuentras suscrito,
-    -   cambiar tus [opciones de suscripción](user#options.md) lista por lista,
-    -   cambiar tus [preferencias generales](user#pref.md), las que se aplican todo el entorno de las listas de correo (nombre, contraseña, idioma de la interfaz web, etc.);
+    -   [suscribirte](user.md#subscribe) a listas,
+    -   [darte de baja](user.md#unsubscribe) de listas a las que te encuentras suscrito,
+    -   cambiar tus [opciones de suscripción](user.md#options) lista por lista,
+    -   cambiar tus [preferencias generales](user.md#pref), las que se aplican todo el entorno de las listas de correo (nombre, contraseña, idioma de la interfaz web, etc.);
 -   **usar las listas de correo**:
     -   leer el [archivo web de mensajes de las listas a las que no estás suscrito](arc.md), si ese archivo es público y si tus permisos personales te permiten acceder a esas listas,
     -   leer el [archivo de las listas a las cuales estás suscrito](arc.md),
-    -   realizar [búsquedas en los archivos de la lista](arc#arcsearch.md),
+    -   realizar [búsquedas en los archivos de la lista](arc.md#arcsearch),
     -   [enviar mensajes](sendmsg.md) a las listas a las que estás suscrito,
-    -   [descargar documentos](shared#shared_read.md) desde el espacio de documentos compartidos,
-    -   [subir documentos](shared#shared_upload.md) al espacio de documentos compartidos;
+    -   [descargar documentos](shared.md#shared_read) desde el espacio de documentos compartidos,
+    -   [subir documentos](shared.md#shared_upload) al espacio de documentos compartidos;
 -   **gestionar listas de correo**:
-    -   [crear nuevas listas](admin#create_list.md) (acceso restringido) - sujeto a la autorización,
-    -   [configurar las listas](admin#edit_list.md) que te pertenecen,
-    -   [administrar suscripciones](admin#manage_members.md),
-    -   [administrar el espacio de documentos compartidos](admin#manage_shared.md),
-    -   [moderar las listas](admin#moderate.md) de las cuales eres moderador.
+    -   [crear nuevas listas](admin.md#create_list) (acceso restringido) - sujeto a la autorización,
+    -   [configurar las listas](admin.md#edit_list) que te pertenecen,
+    -   [administrar suscripciones](admin.md#manage_members),
+    -   [administrar el espacio de documentos compartidos](admin.md#manage_shared),
+    -   [moderar las listas](admin.md#moderate) de las cuales eres moderador.
 
 ### <span id="roles"></span>Cómo funciona el servicio de listas de correo: roles y responsabilidades
 
@@ -88,11 +88,11 @@ Los listmasters están a cargo de **la administración del servicio de listas de
 
 **El dueño de la lista suele ser su creador** o, en su defecto, la persona que ha solicitado la creación de la lista o quien se haga responsable de ella. **Su rol**:
 
--   **define la [forma en que se utilizará la lista](admin#edit_list.md)**;
--   **escribe una [carta de bienvenida](admin#charter.md)** orientada a los suscriptores;
+-   **define la [forma en que se utilizará la lista](admin.md#edit_list)**;
+-   **escribe una [carta de bienvenida](admin.md#charter)** orientada a los suscriptores;
 -   **establece uno o varios <span>moderadores</span>**;
--   **gestiona las [suscripciones y desuscripciones](admin#manage_members.md)**;
--   **cuando es relevante poner un [documento compartido en el espacio web](admin#manage_shared.md)** a la disposición de los suscriptores;
+-   **gestiona las [suscripciones y desuscripciones](admin.md#manage_members)**;
+-   **cuando es relevante poner un [documento compartido en el espacio web](admin.md#manage_shared)** a la disposición de los suscriptores;
 -   **contesta preguntas de los suscriptores o potenciales suscritores sobre la lista;**
 -   ~~etc.~~
 
@@ -100,7 +100,7 @@ Una lista puede tener varios dueños. Sin embargo, el **perfil 'Privilegiado'** 
 
 #### Moderadores
 
-**Los moderadores los nombra el dueño de la lista**. Ellos se encargan de [controlar la relevancia de los mensajes](admin#moderate.md) enviados a la lista: despues de leerlos, **eligen si los aceptan o los rechazan.**. El proceso de moderación ocurre antes de que el mensaje se envíe a los suscriptores. El rechazo de un mensaje posiblemente va asociado a una notificación para el remitente con la intención de explicar la razón del rechazo.
+**Los moderadores los nombra el dueño de la lista**. Ellos se encargan de [controlar la relevancia de los mensajes](admin.md#moderate) enviados a la lista: despues de leerlos, **eligen si los aceptan o los rechazan.**. El proceso de moderación ocurre antes de que el mensaje se envíe a los suscriptores. El rechazo de un mensaje posiblemente va asociado a una notificación para el remitente con la intención de explicar la razón del rechazo.
 
 Una lista puede tener uno o varios moderadores; generalmente, el dueño de la lista es también un moderador.
 
@@ -114,6 +114,6 @@ El uso de un servicio de listas de correo significa respetar una serie de normas
 -   Si está disponible, los dueños y moderadores de la lista tienen que estar de acuerdo con la 'Carta de dueño y moderador'.
 -   El uso de listas de correo naturalmente implica respetar las normas de buenas prácticas referentes al correo electrónico.
 
-Para conocer mas, diríjase a la sección dedicada a [las buenas prácticas para suscriptores](sendmsg#rulesuser.md) y a la sección sobre [buenas prácticas para dueños y moderadores](admin#rulesadmin.md).
+Para conocer mas, diríjase a la sección dedicada a [las buenas prácticas para suscriptores](sendmsg.md#rulesuser) y a la sección sobre [buenas prácticas para dueños y moderadores](admin.md#rulesadmin).
 
 ------------------------------------------------------------------------

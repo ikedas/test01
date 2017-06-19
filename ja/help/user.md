@@ -103,10 +103,10 @@ Sympa にメールで送れるコマンドすべての説明が[こちら](mail_
 
 -   自分の[読者登録の設定](#options)を変える、
 -   [リストの投稿保管庫](arc.md)を見る、
--   [投稿保管庫にあるメッセージを探す](arc#arcsearch.md)、
+-   [投稿保管庫にあるメッセージを探す](arc.md#arcsearch)、
 -   [新たにメッセージを送る](sendmsg.md)、
--   共有文書置き場から[文書をダウンロードする](shared#shared_read.md)、
--   共有文書置き場に[文書をアップロードする](shared#shared_upload.md)。
+-   共有文書置き場から[文書をダウンロードする](shared.md#shared_read)、
+-   共有文書置き場に[文書をアップロードする](shared.md#shared_upload)。
 -   リストの[読者一覧を見る](#subscribers) (見られるようになっていれば)、
 -   リストごとに受け取りを[休止したり再開したりする](suspend.md)。
 -   リストの[登録解除](#unsubscribe)をする。

@@ -104,10 +104,10 @@
 
 -   ~~change your [subscriber options](#options);~~
 -   ~~read the [list archive](arc.md);~~
--   ~~[search in the message archive](arc#arcsearch.md);~~
+-   ~~[search in the message archive](arc.md#arcsearch);~~
 -   ~~[send new messages](sendmsg.md);~~
--   ~~[download documents](shared#shared_read.md) from the shared document web space;~~
--   ~~[upload documents](shared#shared_upload.md) in the shared document web space;~~
+-   ~~[download documents](shared.md#shared_read) from the shared document web space;~~
+-   ~~[upload documents](shared.md#shared_upload) in the shared document web space;~~
 -   ~~[review members](#subscribers) of the list (if available);~~
 -   ~~[suspend or resume](suspend.md) your subscription of each list;~~
 -   ~~[unsubscribe](#unsubscribe) from the list.~~

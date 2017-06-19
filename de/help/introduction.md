@@ -40,21 +40,21 @@ Wenn Sie den Mailinglistendienst verwenden, können Sie:
 -   **nach bestimmten Mailinglisten suchen,** die Ihren besonderen Interessen oder Ihrer Situation entsprechen;
 -   **Ihre Abonnements verwalten:**
     -   Listen [abbestellen,](file:///help/user#subscribe%3Eabonnieren,%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EListen,%20die%20Sie%20abonniert%20haben,%20%3Ca%20href=)
-    -   die [Abonnementoptionen](user#options.md) für jede abonnierte Liste anpassen,
-    -   Ihre [allgemeinen Einstellungen,](user#pref.md) die das gesamte Mailinglistensystem betreffen, anpassen (Name, Passwort, Sprache der WWW-Oberfläche etc.);
+    -   die [Abonnementoptionen](user.md#options) für jede abonnierte Liste anpassen,
+    -   Ihre [allgemeinen Einstellungen,](user.md#pref) die das gesamte Mailinglistensystem betreffen, anpassen (Name, Passwort, Sprache der WWW-Oberfläche etc.);
 -   **Mailinglisten verwenden**:
     -   die [Online-Nachrichtenarchive von Listen, die Sie nicht abonniert haben,](arc.md) lesen, falls diese Archive öffentlich sind und Sie berechtigt sind, sie zu lesen,
     -   die [Archive abonnierter Listen](arc.md) lesen,
-    -   [im Listenarchiv suchen,](arc#arcsearch.md)
+    -   [im Listenarchiv suchen,](arc.md#arcsearch)
     -   Nachrichten an Listen, die Sie abonniert haben, [verschicken,](sendmsg.md)
-    -   Dokumente aus dem Bereich für gemeinsame Dokumente [herunterladen,](shared#shared_read.md)
-    -   Dokumente in den Bereich für gemeinsame Dokumente [hochladen;](shared#shared_upload.md)
+    -   Dokumente aus dem Bereich für gemeinsame Dokumente [herunterladen,](shared.md#shared_read)
+    -   Dokumente in den Bereich für gemeinsame Dokumente [hochladen;](shared.md#shared_upload)
 -   **Mailinglisten verwalten**:
-    -   [neue Listen anlegen](admin#create_list.md) (beschränkter Zugang) - muss bestätigt werden,
-    -   [Listen konfigurieren,](admin#edit_list.md) die Ihnen gehören,
-    -   [Abonnements verwalten,](admin#manage_members.md)
-    -   [den Bereich für gemeinsame Dokumente verwalten,](admin#manage_shared.md)
-    -   [Listen moderieren,](admin#moderate.md) bei denen Sie Moderator sind.
+    -   [neue Listen anlegen](admin.md#create_list) (beschränkter Zugang) - muss bestätigt werden,
+    -   [Listen konfigurieren,](admin.md#edit_list) die Ihnen gehören,
+    -   [Abonnements verwalten,](admin.md#manage_members)
+    -   [den Bereich für gemeinsame Dokumente verwalten,](admin.md#manage_shared)
+    -   [Listen moderieren,](admin.md#moderate) bei denen Sie Moderator sind.
 
 ### <span id="roles"></span>Wie das Mailinglistensystem arbeitet: Rollen und Verantwortlichkeiten
 
@@ -87,11 +87,11 @@ Listmasters sind verantwortlich für die **Verwaltung des Mailinglistensystems**
 
 **Der Listeneigentümer ist normalerweise derjenige, der die Liste angelegt hat,** oder andernfalls die Person, die das Anlegen der Liste beantragt oder die Verantwortung für sie übernommen hat. **Ihre Rolle:**
 
--   **bestimmen, [wie eine Liste genutzt werden soll;](admin#edit_list.md)**
--   **eine [Listencharta](admin#charter.md) schreiben,** die sich an die Abonnenten richtet;
--   **einen oder mehrere [Moderatoren](listconfig#description.md) ernennen;**
--   **[Abonnements und Abbestellungen](admin#manage_members.md) verwalten;**
--   **entscheiden, ob es nötig ist, den Abonnenten einen [Bereich für gemeinsame Dokumente](admin#manage_shared.md)** zur Verfügung zu stellen;
+-   **bestimmen, [wie eine Liste genutzt werden soll;](admin.md#edit_list)**
+-   **eine [Listencharta](admin.md#charter) schreiben,** die sich an die Abonnenten richtet;
+-   **einen oder mehrere [Moderatoren](listconfig.md#description) ernennen;**
+-   **[Abonnements und Abbestellungen](admin.md#manage_members) verwalten;**
+-   **entscheiden, ob es nötig ist, den Abonnenten einen [Bereich für gemeinsame Dokumente](admin.md#manage_shared)** zur Verfügung zu stellen;
 -   **Fragen von Abonnenten und potenziellen Abonnenten zur Liste beantworten;**
 -   usw.
 
@@ -99,7 +99,7 @@ Eine Liste kann mehrere Eigentümer haben. Allerdings ist das **'privilegierte' 
 
 #### Moderatoren
 
-**Moderatoren werden vom Listeneigentümer ernannt.** Sie sind **verantwortlich dafür, die [Relevanz](admin#moderate.md) der an die Liste gesendeten Nachrichten zu kontrollieren:**entscheiden dann, ob sie sie annehmen oder zurückweisen. Nachrichten werden moderiert, bevor sie an die Abonnenten verschickt werden. Wird eine Nachricht abgewiesen, kann der Moderator daraufhin eventuell einen Hinweis an ihren Absender schicken, um den Grund für die Abweisung zu erklären.
+**Moderatoren werden vom Listeneigentümer ernannt.** Sie sind **verantwortlich dafür, die [Relevanz](admin.md#moderate) der an die Liste gesendeten Nachrichten zu kontrollieren:**entscheiden dann, ob sie sie annehmen oder zurückweisen. Nachrichten werden moderiert, bevor sie an die Abonnenten verschickt werden. Wird eine Nachricht abgewiesen, kann der Moderator daraufhin eventuell einen Hinweis an ihren Absender schicken, um den Grund für die Abweisung zu erklären.
 
 Eine Liste kann **einen oder mehrere Moderatoren** haben; üblicherweise ist auch der Listeneigentümer ein Moderator.
 
@@ -113,6 +113,6 @@ Die Verwendung eines Mailinglistendienstes verlangt die Einhaltung einer Reihe v
 -   Soweit verfügbar müssen sich die Listeneigentümer und -Moderatoren an die 'Eigentümer- und Moderatoren Richtlinien' halten.
 -   Die Nutzung von Mailinglisten verlangt selbstverständlich die Einhaltung der üblichen E-Mail-Umgangsformen (der "Netiquette").
 
-Wenn Sie mehr wissen möchten, betrachten Sie den Abschnitt über [Verhaltenstipps für Abonnenten](sendmsg#rulesuser.md) und den Abschnitt über [Verhaltenstipps für Eigentümer und Moderatoren.](admin#rulesadmin.md)
+Wenn Sie mehr wissen möchten, betrachten Sie den Abschnitt über [Verhaltenstipps für Abonnenten](sendmsg.md#rulesuser) und den Abschnitt über [Verhaltenstipps für Eigentümer und Moderatoren.](admin.md#rulesadmin)
 
 ------------------------------------------------------------------------

@@ -28,14 +28,14 @@ Este problema puede tener muchos motivos:
     -   Tal vez te suscribiste con otra dirección de correo diferente a la que estás consultando
     -   Puede que tu solicitud de suscripción fuese rechazada por los dueños de la lista.
 
-    En cualquier caso, intenta [suscribirte](user#subscribe.md) de nuevo.
+    En cualquier caso, intenta [suscribirte](user.md#subscribe) de nuevo.
 -   <span id="notsubscribedanymore"></span>**Ya no eres suscriptor de la lista**:
-    -   Si tu dirección de correo ha generado rebotes por un tiempo, automáticamente el sistema te habrá desuscrito (o incluso puede que lo haya hecho el administrador). Intenta [suscribirte de nuevo](user#subscribe.md) después de asegurarte que tu dirección de correo no tiene problemas otra vez.
+    -   Si tu dirección de correo ha generado rebotes por un tiempo, automáticamente el sistema te habrá desuscrito (o incluso puede que lo haya hecho el administrador). Intenta [suscribirte de nuevo](user.md#subscribe) después de asegurarte que tu dirección de correo no tiene problemas otra vez.
     -   Si no has respetado las diferentes reglas que se aplican a la lista, los dueños podrían haberte excluido de la lista...
-    -   Puede que te haya desuscrito alguien malintencionadamente, en caso de que la lista no requiera confirmación para las solicitudes de suscripción o desuscripción... en ese caso, intenta [suscribirte de nuevo](user#subscribe.md).
--   **Tu [modo de entrega](user#deliverymode.md)no permite que recibas mensajes**: por ejemplo, encaso de tener configurado el modo de entrega 'Nomail'.
+    -   Puede que te haya desuscrito alguien malintencionadamente, en caso de que la lista no requiera confirmación para las solicitudes de suscripción o desuscripción... en ese caso, intenta [suscribirte de nuevo](user.md#subscribe).
+-   **Tu [modo de entrega](user.md#deliverymode)no permite que recibas mensajes**: por ejemplo, encaso de tener configurado el modo de entrega 'Nomail'.
 -   **La bandeja de entrada está llena**. Ten cuidado: cuando tu bandeja de entrada no está completamente llena, solo recibes pequeños mensajes, lo cual hace difícil entender cual es el problema... Además, si tu dirección de correo ocasiona problemas de forma regular, puede que seas dado de baja por el sistema o por los dueños de la lista. De esa forma, deberías limpiar tu bandeja de entrada regularmente.
--   **Tu bandeja de entrada está sujeta a algunas restricciones**: no te permiten recibir mensajes con adjuntos, prohíben algunos tipos de adjuntos o limitan el tamaño máximo del mensaje de entrada; en ese caso, te agonsejamos que utilices el [Modo Urlize](user#deliverymode.md).
+-   **Tu bandeja de entrada está sujeta a algunas restricciones**: no te permiten recibir mensajes con adjuntos, prohíben algunos tipos de adjuntos o limitan el tamaño máximo del mensaje de entrada; en ese caso, te agonsejamos que utilices el [Modo Urlize](user.md#deliverymode).
 
 #### No puedes enviar mensajes a una lista
 

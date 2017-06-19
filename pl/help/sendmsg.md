@@ -43,13 +43,13 @@ Dobrze jest przez pewien okres czasu po zasubskrybowaniu listy **poobserwować r
 
 ##### Prywatność
 
-Wszystkie wiadomości wysyłane na listę są archiwizowane. **Dlatego, fakt wysłania wiadomości automatycznie oznacza wyrażenie zgody na dystrybucję i archiwizowanie**. Możesz jednak poprosić o usunięcie wysłanej wiadomości, bezpośrednio przez archiwum listy (przycisk 'Oznacz wiadomość do usunięcia') lub [kontaktując się z właścicielami listy](faquser#contactadmin.md).
+Wszystkie wiadomości wysyłane na listę są archiwizowane. **Dlatego, fakt wysłania wiadomości automatycznie oznacza wyrażenie zgody na dystrybucję i archiwizowanie**. Możesz jednak poprosić o usunięcie wysłanej wiadomości, bezpośrednio przez archiwum listy (przycisk 'Oznacz wiadomość do usunięcia') lub [kontaktując się z właścicielami listy](faquser.md#contactadmin).
 
 Jeśli wysyłasz wiadomość na listę, **Twój adres email będzie zawarty w jej nagłówku i w archiwum listy**. Z reguły jednak Twój adres email i inne dane nie zostaną przekazane innym podmiotom bez Twojej zgody, chyba że reguły mówią co innego.
 
 | Note |
 |------|
-| W większości krajów Twoje dane są chronione przez prawo. Na przykład w Stanach Zjednoczonych ma zastosowanie Akt Prywatności z 1974. W Unii Europejskiej zastosowanie mają Dyrektywa 95/46/EC Parlamentu Europejskiego, a także prawo danego kraju. Aby dowiedzieć się więcej, [skontaktuj się z właścicielami listy](faquser#contactadmin.md). |
+| W większości krajów Twoje dane są chronione przez prawo. Na przykład w Stanach Zjednoczonych ma zastosowanie Akt Prywatności z 1974. W Unii Europejskiej zastosowanie mają Dyrektywa 95/46/EC Parlamentu Europejskiego, a także prawo danego kraju. Aby dowiedzieć się więcej, [skontaktuj się z właścicielami listy](faquser.md#contactadmin). |
 
 Jak w przypadku każdej korespondencji, **musisz podpisywać swoje wiadomości**. Na profesjonalnych listach mailingowych **podaje się zwykle nazwę swojej organizacji i stanowisko razem z imieniem i nazwiskiem**. Zastanów się jednak, **czy należy podawać dużo szczegółów** (adres, numer telefonu, itp.): dane te będą dostępne w archiwum listy...
 

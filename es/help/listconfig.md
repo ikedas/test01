@@ -201,7 +201,7 @@ La sección de '**Gestión de rebotes**' define dos ratios:
 -   la **tarea a realizar sobre los suscriptores involucrados**: sin tarea, notificación, borrado de la lista;
 -   la **persona a notificar** cuando una tarea se lleva a cabo: nadie, los dueños, el listmaster. La notificación enviada cuando una tarea se lleva a cabo incluye los nombres de todos los suscriptores involucrados así como información precisa sobre la tarea.
 
-**Para gestionar rebotes** (reiniciar el contador para determinados usuarios, dar de baja suscriptores con errores, solicitar un recordatorio de suscripción, etc.) **ve a la página de [Rebotes](admin#manage_bounces.md)** del módulo de administración de la lista.
+**Para gestionar rebotes** (reiniciar el contador para determinados usuarios, dar de baja suscriptores con errores, solicitar un recordatorio de suscripción, etc.) **ve a la página de [Rebotes](admin.md#manage_bounces)** del módulo de administración de la lista.
 
 **TEN CUIDADO: no olvides pinchar en el botón 'Update'** al final de la página para guardar todos los cambios.
 

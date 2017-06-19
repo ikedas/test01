@@ -10,7 +10,7 @@ Rappel : autour des listes de diffusion, on trouve quatre types d'acteurs :
 -   **modérateurs ;**
 -   **abonnés.**
 
-Reportez-vous à la [description du rôle de chacun](introduction#roles.md) pour en savoir plus.
+Reportez-vous à la [description du rôle de chacun](introduction.md#roles) pour en savoir plus.
 
 ### <span id="create_list"></span>Demander la création d'une liste de diffusion
 
@@ -18,7 +18,7 @@ La **demande de création** d'une liste de diffusion peut être **soumise à con
 
 Pour demander la création d'une liste de diffusion, procédez comme suit :
 
-1.  Consultez la **[page d'accueil du service](%7B%7Bpath_cgi%7D%7D/home)** et [**Connectez-vous**](user#sympa_auth.md)..
+1.  Consultez la **[page d'accueil du service](%7B%7Bpath_cgi%7D%7D/home)** et [**Connectez-vous**](user.md#sympa_auth)..
 2.  Dans le menu supérieur, **cliquez sur le lien 'Création de liste'**.
 
     | Note |
@@ -127,13 +127,13 @@ Par défaut, Sympa utilise des fichiers par défaut ; dans ce cas, le fichier c
 
 Par défaut, les listes ne possèdent pas toujours d'espace de stockage partagé. Il faut donc le créer. Pour cela, allez dans le **module d'administration** de la liste et cliquez sur '**Créer un espace documents**'.
 
-Pour que les abonnés puissent publier des documents dans l'espace de stockage partagé, vous devez **modifier les droits** par défaut : dans le module d'administration de la liste, cliquez sur '**Configurer la liste**' puis sur '**Droits d'accès**' (ou 'Privilèges'). Au bas de la page, vous trouverez une liste déroulante intitulée '[**Droit d'édition**](listconfig#docsrights.md)' ; choisissez l'option '**Limité aux abonnés (private)**'.
+Pour que les abonnés puissent publier des documents dans l'espace de stockage partagé, vous devez **modifier les droits** par défaut : dans le module d'administration de la liste, cliquez sur '**Configurer la liste**' puis sur '**Droits d'accès**' (ou 'Privilèges'). Au bas de la page, vous trouverez une liste déroulante intitulée '[**Droit d'édition**](listconfig.md#docsrights)' ; choisissez l'option '**Limité aux abonnés (private)**'.
 
 | Note |
 |------|
-| Attention : si vous avez créé des dossiers avant d'effectuer cette opération, ces dossiers resteront interdits en écriture. Si vous souhaitez les autoriser en écriture, vous devrez [modifier leurs droits d'accès](shared#acces.md) dossier par dossier. |
+| Attention : si vous avez créé des dossiers avant d'effectuer cette opération, ces dossiers resteront interdits en écriture. Si vous souhaitez les autoriser en écriture, vous devrez [modifier leurs droits d'accès](shared.md#acces) dossier par dossier. |
 
-Découvrez également [comment créer des **quotas**](listconfig#docsrights.md) pour l'espace de stockage partagé via la page 'Privilèges' de la section 'Configurer la liste'.
+Découvrez également [comment créer des **quotas**](listconfig.md#docsrights) pour l'espace de stockage partagé via la page 'Privilèges' de la section 'Configurer la liste'.
 
 Pour **tout savoir sur la gestion de l'espace de stockage partagé** (organisation de l'espace de stockage partagé, modification des droits d'accès, nommage des documents, etc.), reportez-vous à la section '[Utiliser l'espace de stockage partagé](shared.md)' du Guide de l'utilisateur.
 
@@ -181,7 +181,7 @@ Pour **envoyer à chacun des abonnés une notification de rappel d'abonnement**,
 
 | Note |
 |------|
-| Vous pouvez également configurer un rappel d'abonnement automatique via la page '[Divers](listconfig#other.md)' de la section 'Configurer la liste'. |
+| Vous pouvez également configurer un rappel d'abonnement automatique via la page '[Divers](listconfig.md#other)' de la section 'Configurer la liste'. |
 
 Pour **désabonner des abonnés** à partir de cette page, sélectionnez les abonnés en cochant les cases situées en bout de ligne et cliquez sur le bouton '**Désabonner les adresses sélectionnées**'.
 
@@ -205,7 +205,7 @@ Les informations affichées sont :
 -   nombre d'erreurs ;
 -   période au cours de laquelle des erreurs ont été observées.
 
-Vous pouvez **consulter la dernière erreur** ou **effacer toutes les erreurs**. Si vous effacez toutes les erreurs, le [score](listconfig#bouncers.md) de l'abonné sera remis à zéro.
+Vous pouvez **consulter la dernière erreur** ou **effacer toutes les erreurs**. Si vous effacez toutes les erreurs, le [score](listconfig.md#bouncers) de l'abonné sera remis à zéro.
 
 Pour gérer plus facilement les adresses en erreur, allez à la page '[Erreurs](#manage_bounces)' du module d'administration de la liste.
 
@@ -248,7 +248,7 @@ Cocher la case « **Ajouter à la liste noire** » entraîne deux actions : le m
 
 Si vous désirez personnaliser le message de rejet que l'auteur du message recevra, cliquez sur le bouton « **Gestion des messages de rejet** ». La page de gestion des messages sera alors affichée. Vous pouvez y définir un ensemble de messages de rejet types.
 
-**Rappel** : vous pouvez [ajouter ou supprimer des modérateurs](listconfig#description.md) via le module d'administration de la liste. Pour cela, à partir de la page d'information de la liste, cliquez sur '**Admin**', puis sur '**Configurer la liste**', et enfin sur '**Définition de la liste**'.
+**Rappel** : vous pouvez [ajouter ou supprimer des modérateurs](listconfig.md#description) via le module d'administration de la liste. Pour cela, à partir de la page d'information de la liste, cliquez sur '**Admin**', puis sur '**Configurer la liste**', et enfin sur '**Définition de la liste**'.
 
 Il est aussi possible d'**intervenir sur les messages après leur diffusion sur la liste** ; ceci est utile dans le cas d'une liste non modérée. Si vous souhaitez **supprimer un message**, allez le consulter en ligne dans la section 'Archives' et cliquez sur le bouton '**Marquer ce message pour suppression**' situé en haut à droite du message. Un message de confirmation s'affiche ; cliquez sur OK. Le message sera supprimé au bout de quelques secondes. **Attention : cette manipulation est irréversible !!! Si vous supprimez un message, vous ne pourrez en aucun cas le récupérer.**
 

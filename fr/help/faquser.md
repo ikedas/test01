@@ -28,14 +28,14 @@ Les raisons du problème peuvent être multiples :
     -   Vous êtes peut-être abonné avec une autre adresse e-mail que celle que vous consultez.
     -   Votre demande d'abonnement a peut-être été rejetée par les propriétaires de la liste.
 
-    Dans tous les cas, essayez de [vous abonner](user#abbo.md) à nouveau.
+    Dans tous les cas, essayez de [vous abonner](user.md#abbo) à nouveau.
 -   <span id="notsubscribedanymore"></span>**Vous n'êtes plus abonné à la liste** ::
-    -   Si votre adresse a été en erreur pendant un certain temps, le système peut vous avoir désabonné automatiquement (cela peut également être le fait des propriétaires de la liste). Essayez de vous [réabonner](user#abbo.md) après vous être assuré que votre adresse e-mail ne poserait plus de problème.
+    -   Si votre adresse a été en erreur pendant un certain temps, le système peut vous avoir désabonné automatiquement (cela peut également être le fait des propriétaires de la liste). Essayez de vous [réabonner](user.md#abbo) après vous être assuré que votre adresse e-mail ne poserait plus de problème.
     -   Si vous n'avez pas respecté les règles d'utilisation de la liste, il est possible que les propriétaires vous aient « banni »...
-    -   Vous pouvez aussi avoir été désabonné de manière arbitraire par une personne malintentionnée, si la liste n'est pas configurée de manière à demander une confirmation pour toute demande d'abonnement/désabonnement... Dans ce cas, essayez de vous [réabonner](user#abbo.md).
--   **Votre [mode de réception](user#deliverymode.md) ne vous permet pas de recevoir les messages** : c'est par exemple le cas pour le mode de réception 'Nomail'.
+    -   Vous pouvez aussi avoir été désabonné de manière arbitraire par une personne malintentionnée, si la liste n'est pas configurée de manière à demander une confirmation pour toute demande d'abonnement/désabonnement... Dans ce cas, essayez de vous [réabonner](user.md#abbo).
+-   **Votre [mode de réception](user.md#deliverymode) ne vous permet pas de recevoir les messages** : c'est par exemple le cas pour le mode de réception 'Nomail'.
 -   **Votre boîte de réception est saturée**. Attention : si votre boîte de réception n'est pas complètement saturée, vous recevrez uniquement les messages les moins volumineux, ce qui retardera le diagnostic... Si votre adresse e-mail est régulièrement à l'origine de problèmes, vous risquez en outre d'être désabonné par les propriétaires ou par le système. Nettoyez donc votre boîte de réception.
--   **Votre boîte de réception est affectée par certaines restrictions** : elle ne vous permet pas de recevoir les messages avec pièces jointes, interdit certains types de pièces jointes ou limite la taille des messages entrants ; dans ce cas, nous vous conseillons de choisir le [mode de réception Urlize](user#deliverymode.md).
+-   **Votre boîte de réception est affectée par certaines restrictions** : elle ne vous permet pas de recevoir les messages avec pièces jointes, interdit certains types de pièces jointes ou limite la taille des messages entrants ; dans ce cas, nous vous conseillons de choisir le [mode de réception Urlize](user.md#deliverymode).
 
 #### Vous n'arrivez pas à envoyer des messages sur une liste
 

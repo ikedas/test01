@@ -10,7 +10,7 @@ Przypomnienie: usługa list mailingowych definiuje cztery typy ról:
 -   **~~moderator;~~**
 -   **subskrybent.**
 
-Aby dowiedzieć się więcej o rolach, zapoznaj się z [opisami ról](introduction#roles.md).
+Aby dowiedzieć się więcej o rolach, zapoznaj się z [opisami ról](introduction.md#roles).
 
 ### <span id="create_list"></span>Prośba o utworzenie listy mailingowej
 
@@ -18,7 +18,7 @@ Aby dowiedzieć się więcej o rolach, zapoznaj się z [opisami ról](introducti
 
 Aby poprosić o utworzenie listy mailingowej, wykonaj następujące kroki:
 
-1.  Przejdź do **[strony domowej środowiska list](%7B%7Bpath_cgi%7D%7D/home)** i [**zaloguj się**](user#sympa_auth.md).
+1.  Przejdź do **[strony domowej środowiska list](%7B%7Bpath_cgi%7D%7D/home)** i [**zaloguj się**](user.md#sympa_auth).
 2.  W górnym menu **kliknij link 'Nowa lista'**.
 
     | Note |
@@ -67,7 +67,7 @@ Następnie należy **poczekać na zatwierdzenie prośby o utworzenie listy przez
 
 Aby zarządzać swoją listą, należy wykonać kolejno kroki:
 
-1.  Przejdź do **strony domowej środowiska list** i **[zaloguj się](user#sympa_auth.md)**.
+1.  Przejdź do **strony domowej środowiska list** i **[zaloguj się](user.md#sympa_auth)**.
 
     | Note |
     |------|
@@ -127,13 +127,13 @@ Domyślnie Sympa używa plików domyślnych; w takiej sytuacji specyficzne pliki
 
 Domyślnie, listy nie mają przestrzeni plików współdzielonych, trzeba więc ją utworzyć. Aby to zrobić, przejdź do **modułu administracyjnego listy** i kliknij link '**Utwórz współdzielone**'.
 
-Aby zezwolić subskrybentom publikować dokumenty w przestrzeni dokumentów współdzielonych, musisz **zmienić domyślne uprawnienia**: w module administracyjnym listy kliknij '**Edytuj konfigurację listy**', a potem '**Uprawnienia**'. Na dole strony jest rozwijalna lista zatytułowana '[**Kto może edytować**](listconfig#docsrights.md)'; tam wybierz opcję '**Ograniczone do subskrybentów (private)**'.
+Aby zezwolić subskrybentom publikować dokumenty w przestrzeni dokumentów współdzielonych, musisz **zmienić domyślne uprawnienia**: w module administracyjnym listy kliknij '**Edytuj konfigurację listy**', a potem '**Uprawnienia**'. Na dole strony jest rozwijalna lista zatytułowana '[**Kto może edytować**](listconfig.md#docsrights)'; tam wybierz opcję '**Ograniczone do subskrybentów (private)**'.
 
 | Note |
 |------|
-| Uwaga: jeśli stworzyłeś katalogi przed poprawieniem uprawnień, nadal nie będzie się dało do nich nic zapisać. Jeśli chcesz to poprawić, musisz [zmienić prawa dostępu](shared#acces.md) do każdego z katalogów. |
+| Uwaga: jeśli stworzyłeś katalogi przed poprawieniem uprawnień, nadal nie będzie się dało do nich nic zapisać. Jeśli chcesz to poprawić, musisz [zmienić prawa dostępu](shared.md#acces) do każdego z katalogów. |
 
-Istotne może być też [ustawienie **kwot**](listconfig#docsrights.md) dla przestrzeni dokumentów współdzielonych na stronie 'Uprawnienia' sekcji 'Edytuj konfigurację listy'.
+Istotne może być też [ustawienie **kwot**](listconfig.md#docsrights) dla przestrzeni dokumentów współdzielonych na stronie 'Uprawnienia' sekcji 'Edytuj konfigurację listy'.
 
 Aby **dowiedzieć się więcej na temat zarządzania przestrzenią dokumentów współdzielonych** (jak ją zorganizować, zmieniać prawa dostępu, nazywać dokumenty, itp.), przejrzyj sekcję '[Korzystanie z przestrzeni dokumentów współdzielonych](shared.md)' podręcznika użytkownika.
 
@@ -181,7 +181,7 @@ Aby **wysłać przypomnienie o subskrypcji do wszystkich subskrybentów**, klikn
 
 | Note |
 |------|
-| Możesz także skonfigurować automatyczne wysyłanie przypomnienia o subskrypcji poprzez stronę '[Różne](listconfig#other.md)' sekcji 'Edytuj konfigurację listy'. |
+| Możesz także skonfigurować automatyczne wysyłanie przypomnienia o subskrypcji poprzez stronę '[Różne](listconfig.md#other)' sekcji 'Edytuj konfigurację listy'. |
 
 Aby **wypisać subskrybentów z listy**, zaznacz ich a następnie kliknij przycisk '**Usuń zaznaczone adresy email**'.
 
@@ -205,7 +205,7 @@ Wyświetlane informacje zawierają:
 -   ilość błędów;
 -   okres kiedy występowały błędy.
 
-Możesz **sprawdzić ostatnie błędy** lub **zresetować błędy**. Jeśli zresetujesz błędy, [licznik błędów](listconfig#bouncers.md) subskrybenta będzie wynosić zero.
+Możesz **sprawdzić ostatnie błędy** lub **zresetować błędy**. Jeśli zresetujesz błędy, [licznik błędów](listconfig.md#bouncers) subskrybenta będzie wynosić zero.
 
 Aby w łatwy sposób zarządzać zwracanymi wiadomościami, przejdź do strony '[Zwrotki](#manage_bounces)' modułu administracyjnego.
 
@@ -248,9 +248,9 @@ Zaznaczenie '**Dodaj do czarnej listy**' powoduje niewysyłanie powiadomienia i 
 
 Jeśli chcesz dostosować wiadomość o odrzuceniu wiadomości wysyłaną do jej autora, możesz to zrobić przy pomocy przycisku '**Zarządzaj wiadomościami o odrzuceniu**'. Strona pozwoli zdefiniować zbiór wiadomości o odrzuceniu i wiadomość domyślną.
 
-**Przypomnienie**: możesz [dodawać i usuwać moderatorów](listconfig#description.md) w module administracyjnym. Aby to zrobić, kliknij '**Admin**', następnie '**Edytuj konfigurację listy**', a na końcu '**Definicja listy**'.
+**Przypomnienie**: możesz [dodawać i usuwać moderatorów](listconfig.md#description) w module administracyjnym. Aby to zrobić, kliknij '**Admin**', następnie '**Edytuj konfigurację listy**', a na końcu '**Definicja listy**'.
 
-Jest także możliwe **przetwarzanie wiadomości po ich rozdystrybuowaniu na listę**: może to być przydatne w przypadku list niemoderowanych. Jeśli chcesz **usunąć wiadomość**, [wyszukaj ją w archiwum online](arc#arcsearch.md) i kliknij przycisk '**Zaznacz wiadomość do usunięcia**' w prawym górnym rogu. Wyświetli się potwierdzenie, kliknij 'OK'. Wiadomość zostanie po kilku sekundach usunięta. **Uwaga: ta operacja jest nieodwracalna!!! Jeśli usuniesz wiadomość, nie będzie się dało jej odtworzyć.**
+Jest także możliwe **przetwarzanie wiadomości po ich rozdystrybuowaniu na listę**: może to być przydatne w przypadku list niemoderowanych. Jeśli chcesz **usunąć wiadomość**, [wyszukaj ją w archiwum online](arc.md#arcsearch) i kliknij przycisk '**Zaznacz wiadomość do usunięcia**' w prawym górnym rogu. Wyświetli się potwierdzenie, kliknij 'OK'. Wiadomość zostanie po kilku sekundach usunięta. **Uwaga: ta operacja jest nieodwracalna!!! Jeśli usuniesz wiadomość, nie będzie się dało jej odtworzyć.**
 
 #### <span id="manage_archives"></span>Zarządzanie archiwami
 

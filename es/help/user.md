@@ -104,8 +104,8 @@ Desde esta página de información, podrás:
 -   cambiar tus [opciones de suscriptor](#options);
 -   leer el [archivo de mensajes de la lista](arc.md)
 -   [enviar un nuevo mensaje](file:///help/arc#arcsearch%3Ebuscar%20en%20el%20archivo%20de%20mensajes%3C/a%3E;%3C/li%3E%0A%20%20%20%20%20%20%20%20%3Cli%3E%3Ca%20href=);
--   [descargar documentos](shared#shared_read.md) desde el espacio web compartido de documentos;
--   [subir documentos](shared#shared_upload.md) al espacio de documentos compartidos;
+-   [descargar documentos](shared.md#shared_read) desde el espacio web compartido de documentos;
+-   [subir documentos](shared.md#shared_upload) al espacio de documentos compartidos;
 -   [revisar los miembros](#subscribers) de la lista (en caso de estar disponible)
 -   [suspender o reanudar](suspend.md) tu subcripcion a cada lista;
 -   [darte de baja](#unsubscribe) de la lista.

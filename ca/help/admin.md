@@ -10,7 +10,7 @@ Recordatori: un servei de llistes de correu té cuatre tipus de càrrecs:
 -   **moderador;**
 -   **subscriptor.**
 
-Aneu a [descripció de cada càrrec](introduction#roles.md) per a saber-ne més.
+Aneu a [descripció de cada càrrec](introduction.md#roles) per a saber-ne més.
 
 ### <span id="create_list"></span>Com sol·licitar la creació de una llista de correu
 
@@ -18,7 +18,7 @@ La **sol·licitud de creació d'una llista** pot estar **subjecte a condicions**
 
 Per a sol·licitar la creació d'una llista de correu, seguiu els passos següents:
 
-1.  Aneu a la **[pàgina d'inici de l'entorn de la llista](%7B%7Bpath_cgi%7D%7D/home)** i [**inicieu sessió**](user#sympa_auth.md).
+1.  Aneu a la **[pàgina d'inici de l'entorn de la llista](%7B%7Bpath_cgi%7D%7D/home)** i [**inicieu sessió**](user.md#sympa_auth).
 2.  En el menú de dalt, **feu clic en l'enllaç «Crea una llista»**.
 
     | Note |
@@ -67,7 +67,7 @@ Després d'això, haureu d'**esperar que un dels administradors aprove la creaci
 
 Per a gestionar una llista en què sou el propietari, seguiu els passos següents:
 
-1.  Aneu a la **pàgina d'inici de l'entorn de la llista** y **[iniciu sessió](user#sympa_auth.md)**.
+1.  Aneu a la **pàgina d'inici de l'entorn de la llista** y **[iniciu sessió](user.md#sympa_auth)**.
 
     | Note |
     |------|
@@ -127,13 +127,13 @@ Per defecte, Sympa empra fitxers predeterminats; en aquest cas, els fitxers espe
 
 Per defecte, les llistes no tenen un espai web per a compartir documents. Així, doncs, heu de crear un. Per a fer-ho, aneu al **mòdul d'administració de la llista** i feu clic en l'enllaç de «**Creació compartida**».
 
-Per a permetre que els subscriptors publiquen documents en l'espai web per a compartir documents, necessiteu **canviar els permisos predeterminats**: en el mòdul d'administració de la llista feu clic en «**Editar configuració de la llista**» i després en «**Privilegis**». En el botó de la pàgina, hi ha una llista desplegable amb el nom «[**Qui pot editar**](listconfig#docsrights.md)»; elegiu l'opció «**Restringit per als subscriptors (privat)**».
+Per a permetre que els subscriptors publiquen documents en l'espai web per a compartir documents, necessiteu **canviar els permisos predeterminats**: en el mòdul d'administració de la llista feu clic en «**Editar configuració de la llista**» i després en «**Privilegis**». En el botó de la pàgina, hi ha una llista desplegable amb el nom «[**Qui pot editar**](listconfig.md#docsrights)»; elegiu l'opció «**Restringit per als subscriptors (privat)**».
 
 | Note |
 |------|
-| Aneu amb compte: si creeu carpetes abans de cambiar els permisos, ja que aquestes carpetes continuaran sense poder-se modificar. Si voleu que es puguen modificar, haureu de [canviar els permisos d'accés](shared#acces.md) per a cada carpeta. |
+| Aneu amb compte: si creeu carpetes abans de cambiar els permisos, ja que aquestes carpetes continuaran sense poder-se modificar. Si voleu que es puguen modificar, haureu de [canviar els permisos d'accés](shared.md#acces) per a cada carpeta. |
 
-També podeu voler [establir unes **cuotes**](listconfig#docsrights.md) per a l'espai web per a compartir documents en la pàgina de «Privilegis», la secció d'«Editar la configuració de la llista».
+També podeu voler [establir unes **cuotes**](listconfig.md#docsrights) per a l'espai web per a compartir documents en la pàgina de «Privilegis», la secció d'«Editar la configuració de la llista».
 
 Per a **saber tot sobre la gestiò de l'espai web per a compartir documents** (com organitzar-ho, canviar els permisos d'accés, nom de documents, etc.), aneu a la Guia de l'Usuari, secció «[Com emprar l'espai web per a compartir documents](shared.md)».
 
@@ -181,7 +181,7 @@ Per a **enviar un recordatori de subscripció a tots els subscriptors**, feu cli
 
 | Note |
 |------|
-| També podeu configurar un recordatori de subscripció automàtica, per fer això, aneu a la secció «Edita la configuració de la llista» i elegiu la pàgina «[Miscel·lània](listconfig#other.md)». |
+| També podeu configurar un recordatori de subscripció automàtica, per fer això, aneu a la secció «Edita la configuració de la llista» i elegiu la pàgina «[Miscel·lània](listconfig.md#other)». |
 
 Per a **donar de baixa un subscriptor** des d'aquesta pàgina, seleccioneu-los marcant les caselles que hi ha davant dels noms i feu clic en el botó «**Elimina les adreces electròniques selesccionades**».
 
@@ -205,7 +205,7 @@ La informació que es mostra inclou:
 -   el nombre d'errors;
 -   el període de temps en què van haver errors.
 
-Podeu **verificar l'últim error** o **reiniciar els errors**. Si reiniceu els errors, la [puntuació](listconfig#bouncers.md) del subscriptor es posarà a cero.
+Podeu **verificar l'últim error** o **reiniciar els errors**. Si reiniceu els errors, la [puntuació](listconfig.md#bouncers) del subscriptor es posarà a cero.
 
 Per a gestionar amb més facilitat les adreces que generen missatges retornats, aneu al mòdul d'administració i elegiu la pàgina de «[Retornats](#manage_bounces)».
 
@@ -248,9 +248,9 @@ Si activeu la casella de «**Afegir a la llista negra**» omet la notificació i
 
 Si voleu personalitzar el missatge de rebutjament que s'envia a l'autor, podeu fer-ho a través del botó «**Gestiona els missatges de rebutjament**». La pàgina de gestió dels missatges permet definir un conjunt de missatges de rebutjament i definir-ne un per defecte.
 
-**Recordatori**: podeu [afegir o eliminar moderadors](listconfig#description.md) a través del mòdul d'administració de la llista. Per a fer-ho, heu d'anar a la pàgina d'informació i entrar en «**Edita configuració de llista**», després en «**Definició de la llista**» i per últim en «**Administra**».
+**Recordatori**: podeu [afegir o eliminar moderadors](listconfig.md#description) a través del mòdul d'administració de la llista. Per a fer-ho, heu d'anar a la pàgina d'informació i entrar en «**Edita configuració de llista**», després en «**Definició de la llista**» i per últim en «**Administra**».
 
-També es possible **processar missatges després que s'hagen distribuit en la llista**; fet que podria ser útil quan una llista no està moderada. Si voleu **eliminar un missatge**, [cerqueu-ho en l'arxiu de missatges en línia](arc#arcsearch.md) aneu a la part superior dreta del missatge i feu clic en el botó «**Etiqueta aquest correu per a eliminar**». Es mostrarà un missatge de confirmació; feu clic en «OK». Després de uns pocs segons s'eliminarà el missatge . **Aneu en compte: aquesta acció és irreversible! Si elimineu un missatge, no podreu recuperar-lo.**
+També es possible **processar missatges després que s'hagen distribuit en la llista**; fet que podria ser útil quan una llista no està moderada. Si voleu **eliminar un missatge**, [cerqueu-ho en l'arxiu de missatges en línia](arc.md#arcsearch) aneu a la part superior dreta del missatge i feu clic en el botó «**Etiqueta aquest correu per a eliminar**». Es mostrarà un missatge de confirmació; feu clic en «OK». Després de uns pocs segons s'eliminarà el missatge . **Aneu en compte: aquesta acció és irreversible! Si elimineu un missatge, no podreu recuperar-lo.**
 
 #### <span id="manage_archives"></span>Gestionar l'arxiu de missatges
 

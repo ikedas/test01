@@ -103,10 +103,10 @@ Na stronie informacyjnej możesz:
 
 -   zmienić [opcje subskrybenta](#options);
 -   czytać [archiwa listy](arc.md);
--   [przeszukiwać archiwa wiadomości](arc#arcsearch.md);
+-   [przeszukiwać archiwa wiadomości](arc.md#arcsearch);
 -   [wysyłać nowe wiadomości](sendmsg.md);
--   [pobierać dokumenty](shared#shared_read.md) z przestrzeni dokumentów współdzielonych;
--   [dodawać dokumenty](shared#shared_upload.md) do przestrzeni dokumentów współdzielonych;
+-   [pobierać dokumenty](shared.md#shared_read) z przestrzeni dokumentów współdzielonych;
+-   [dodawać dokumenty](shared.md#shared_upload) do przestrzeni dokumentów współdzielonych;
 -   [przeglądać uczestników](#subscribers) listy (jeśli funkcja jest dostępna);
 -   ~~[suspend or resume](suspend.md) your subscription of each list;~~
 -   [wypisać się](#unsubscribe) z listy.

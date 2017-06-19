@@ -43,13 +43,13 @@
 
 ##### ~~Privacy~~
 
-~~All messages sent to the list are kept in the list archive. **Thus, the simple fact of sending a message constitutes an express authorization of distribution and reproduction in the archive**. However, you can request the deletion of any message you sent, whether directly from the list archive ('Tag this mail for deletion' button) or by [contacting the list owners](faquser#contactadmin.md).~~
+~~All messages sent to the list are kept in the list archive. **Thus, the simple fact of sending a message constitutes an express authorization of distribution and reproduction in the archive**. However, you can request the deletion of any message you sent, whether directly from the list archive ('Tag this mail for deletion' button) or by [contacting the list owners](faquser.md#contactadmin).~~
 
 ~~If you send a message to the list, **your email address will naturally display in your message header and in the list archive**. However, unless otherwise specified, your email address and the other data you provided when you subscribed will not be disclosed to any other third party without your agreement.~~
 
 | Note |
 |------|
-| ~~In most countries, your personal data is protected through a number of laws. For example, in the United States, the Privacy Act of 1974 applies. In the European Union, the "Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data" and national laws arising from it apply. To know more about this, [please contact the list owners](faquser#contactadmin.md).~~ |
+| ~~In most countries, your personal data is protected through a number of laws. For example, in the United States, the Privacy Act of 1974 applies. In the European Union, the "Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data" and national laws arising from it apply. To know more about this, [please contact the list owners](faquser.md#contactadmin).~~ |
 
 ~~As for any correspondence, **you must sign your messages**. On professional mailing lists, **it is customary to mention the name of the organization you belong to and your job title alongside your name**. However, **ask yourself whether it is relevant to give your complete details** (address, telephone number, etc.): they will remain available at any time in the list archive...~~
 

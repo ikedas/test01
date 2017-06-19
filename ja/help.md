@@ -7,5 +7,5 @@
 -   Sympa の使用についての[ユーザ ガイド](help/user.md)。
 -   Sympa の使用についての[管理者ガイド](help/admin.md)。
 
-特定のことがらを実現する方法を探しておられるのでしたら、メーリングリスト管理ソフトウェア Sympa で[できること](help/introduction#features.md)の一覧をご覧ください。
+特定のことがらを実現する方法を探しておられるのでしたら、メーリングリスト管理ソフトウェア Sympa で[できること](help/introduction.md#features)の一覧をご覧ください。
 なにか問題が起きているのでしたら、まず [利用する方のための FAQ](help/faquser.md) か [運営する方のための FAQ](help/faqadmin.md) をご覧になってみてください。

@@ -204,7 +204,7 @@ La section '**Gestion des erreurs**' définit deux seuils :
 -   l'**action à effectuer en direction des abonnés concernés** : aucune action, notification, suppression de la liste des abonnés ;
 -   la **personne à notifier** lorsqu'une action est entreprise : personne, les propriétaires de la liste, les listmasters. La notification envoyée lorsqu'une action est effectuée en direction des abonnés en erreur comprend les adresses de tous les abonnés concernés ainsi que le détail de l'action effectuée.
 
-**Pour gérer les erreurs** (annuler les erreurs pour certains abonnés, désabonner les abonnés en erreur, demander un rappel des abonnements, etc.), **allez à la page** '[Erreurs](admin#manage_bounces.md)' du module d'administration de la liste.
+**Pour gérer les erreurs** (annuler les erreurs pour certains abonnés, désabonner les abonnés en erreur, demander un rappel des abonnements, etc.), **allez à la page** '[Erreurs](admin.md#manage_bounces)' du module d'administration de la liste.
 
 **ATTENTION : n'oubliez pas de cliquer sur 'Mise à jour'** au bas de la page pour enregistrer tous vos changements.
 

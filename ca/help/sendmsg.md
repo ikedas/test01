@@ -43,13 +43,13 @@ Sempre és millor **respectar un període d'observació** uns dies desprès de s
 
 ##### Privacitat
 
-Tots els missatges que s'envien a la llista es guarden a l'arxiu de la llista. **De nabera que, el simple fet d'enviar un missatge és una autorització expressa de distribució i rerpoducció d'aquest en l'arxiu**. No obstant això, es pot demanar l'eliminació de qualsevol missatge, ja siga directament des de l'arxiu de la llista (botó d'«Etiqueta aquest correu per a eliminar») o [contactant amb els propietaris de la llista](faquser#contactadmin.md).
+Tots els missatges que s'envien a la llista es guarden a l'arxiu de la llista. **De nabera que, el simple fet d'enviar un missatge és una autorització expressa de distribució i rerpoducció d'aquest en l'arxiu**. No obstant això, es pot demanar l'eliminació de qualsevol missatge, ja siga directament des de l'arxiu de la llista (botó d'«Etiqueta aquest correu per a eliminar») o [contactant amb els propietaris de la llista](faquser.md#contactadmin).
 
 Si envieu un missatge a la llista, **es mostrarà l'adreça de correu en la capçalera del missatge i en l'arxiu de la llista**. No obstant això, tret que s'especifique, l'adreça de correu i altres dades que es proporcionen en subscriure's no es mostraran a tercers sense el consentiment de la persona.
 
 | Note |
 |------|
-| En la majoria de països, les dades personals estan protegides per diverses lleis. Per exemple, als Estats Units, s'aplica la Llei de Privacitat de 1974. A la Unió Europea s'aplica, la "Directiva 95/46/EC del Parlament i el Consell Europeu de 24 d'octubre del 1995 per a la protecció dels individus respecte les dades personals i el lliure moviment d'aquestes dades" i les lleis nacionals que naixen d'aquesta. Per a saber més sobre això, [contacteu amb els propietaris](faquser#contactadmin.md). |
+| En la majoria de països, les dades personals estan protegides per diverses lleis. Per exemple, als Estats Units, s'aplica la Llei de Privacitat de 1974. A la Unió Europea s'aplica, la "Directiva 95/46/EC del Parlament i el Consell Europeu de 24 d'octubre del 1995 per a la protecció dels individus respecte les dades personals i el lliure moviment d'aquestes dades" i les lleis nacionals que naixen d'aquesta. Per a saber més sobre això, [contacteu amb els propietaris](faquser.md#contactadmin). |
 
 Com qualsevol altra correspondència, **heu de signar els missatges**. En les llistes de correu profesionals, **és costum esmentar el nom de l'organització on treballeu i el càrrec que teniu amb el nom**. No obstant això, **pregunteu-vos si es rellevant donar tots els detalls** (adreça, número de telèfon, etc.): estaran disponibles en tot moment en l'arxiu de la llista...
 
