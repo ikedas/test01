@@ -33,10 +33,13 @@
           </ul>
         {% endif %}
       </header>
-      <nav>
-      <p><a href="{{ page.prev }}">Prev</a> <a href="{{ page.next }}">Next</a></p>
-      </nav>
       <section>
+      <nav>
+      <p>
+        {% if page.prev %}<a href="{{ page.prev | replace: ".md", ".html" }}">Prev</a>{% endif %}
+        {% if page.next %}<a href="{{ page.next | replace: ".md", ".html" }}">Next</a>{% endif %}
+      </p>
+      </nav>
 
       {{ content }}
 
