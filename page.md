@@ -1,7 +1,8 @@
 ---
 title: Page
-prev: page-prev.md
-next: page-next.md
+prev: index.md
+up: ./
+next: Sympa-Internals.3.md
 ---
 Page
 ====
