@@ -3,4 +3,4 @@
 
 @import "{{ site.theme }}";
 
-blockquote code { font-style: normal; }
+pre.highlight code { font-style: normal; }
