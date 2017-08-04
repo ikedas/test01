@@ -1,6 +1,0 @@
----
----
-
-@import "{{ site.theme }}";
-
-pre.highlight code { font-style: normal; }
