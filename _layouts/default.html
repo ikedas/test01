@@ -36,12 +36,23 @@
       <section>
       <nav>
       <p>
-        {% if page.prev %}<a href="{{ page.prev | replace: ".md", ".html" }}">Prev</a>{% endif %}
-        {% if page.next %}<a href="{{ page.next | replace: ".md", ".html" }}">Next</a>{% endif %}
+        {% if page.prev %}<a href="{{ page.prev | replace: ".md", ".html" }}" title="Prev">&#x25c0;</a>{% else %}<span title="Prev">&#x25c0;</span>{% endif %}
+        {% if page.up %}<a href="{{ page.up | replace: ".md", ".html" }}" title="Up">&#x23eb;</a>{% else %}<span title="Up">&#x23eb;</span>{% endif %}
+        {% if page.next %}<a href="{{ page.next | replace: ".md", ".html" }}" title="Next">&#x25b6;</a>{% else %}<span title="Next">&#x25b6;</span>{% endif %}
       </p>
+      <hr />
       </nav>
 
       {{ content }}
+
+      <nav>
+      <hr />
+      <p>
+        {% if page.prev %}<a href="{{ page.prev | replace: ".md", ".html" }}" title="Prev">&#x25c0;</a>{% else %}<span title="Prev">&#x25c0;</span>{% endif %}
+        {% if page.up %}<a href="{{ page.up | replace: ".md", ".html" }}" title="Up">&#x23eb;</a>{% else %}<span title="Up">&#x23eb;</span>{% endif %}
+        {% if page.next %}<a href="{{ page.next | replace: ".md", ".html" }}" title="Next">&#x25b6;</a>{% else %}<span title="Next">&#x25b6;</span>{% endif %}
+      </p>
+      </nav>
 
       </section>
       <footer>
