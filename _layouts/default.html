@@ -33,7 +33,7 @@
           </ul>
         {% endif %}
       </header>
-      <section>
+
       <nav>
       <p>
         {% if page.prev %}<a href="{{ page.prev | replace: ".md", ".html" }}" title="Prev">&#x25c0;</a>{% else %}<span title="Prev">&#x25c0;</span>{% endif %}
@@ -42,9 +42,13 @@
       </p>
       <hr />
       </nav>
+      
+      <section>
 
       {{ content }}
 
+      </section>
+
       <nav>
       <hr />
       <p>
@@ -54,7 +58,6 @@
       </p>
       </nav>
 
-      </section>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
