@@ -34,6 +34,7 @@
         {% endif %}
       </header>
 
+      <section?
       <nav>
       <p>
         {% if page.prev %}<a href="{{ page.prev | replace: ".md", ".html" }}" title="Prev">&#x25c0;</a>{% else %}<span title="Prev">&#x25c0;</span>{% endif %}
@@ -42,13 +43,15 @@
       </p>
       <hr />
       </nav>
-      
+      </section>
+    
       <section>
 
       {{ content }}
 
       </section>
 
+      <section?
       <nav>
       <hr />
       <p>
@@ -57,6 +60,7 @@
         {% if page.next %}<a href="{{ page.next | replace: ".md", ".html" }}" title="Next">&#x25b6;</a>{% else %}<span title="Next">&#x25b6;</span>{% endif %}
       </p>
       </nav>
+      </section?
 
       <footer>
         {% if site.github.is_project_page %}
