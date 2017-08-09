@@ -12,3 +12,50 @@ Test:
 > # Test code
 > $ Test code
 > ```
+
+* First
+
+  Text
+
+  ----
+  Note:
+
+  * Comment
+
+  ----
+
+  Text
+
+  ----
+  Note:
+
+    * Comment
+      Comment
+
+  ----
+
+  Text
+
+  * Second
+
+    Text
+
+    ----
+    Note:
+
+    * Comment
+
+    ----
+
+    Text
+
+    ----
+    Note:
+
+      * Comment
+        Comment
+
+    ----
+
+    Text
+
