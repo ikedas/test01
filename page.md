@@ -13,37 +13,14 @@ Test:
 > $ Test code
 > ```
 
-* First
-
-  Text
-
-  ----
-  Note:
-
-    * Comment
-
-  ----
-
-  Text
-
-  ----
-  Note:
-
-    * Comment
-      Comment
-
-  ----
-
-  Text
-
-  * Second
+  * First
 
     Text
 
     ----
     Note:
 
-    * Comment
+      * Comment
 
     ----
 
@@ -59,26 +36,49 @@ Test:
 
     Text
 
-  * Third
+    * Second
 
-    Text
+      Text
 
-    ----
-    Note:
-
-    * Comment
-
-    ----
-
-    Text
-
-    ----
-    Note:
+      ----
+      Note:
 
       * Comment
-        Comment
 
-    ----
+      ----
 
-    Text
+      Text
+
+      ----
+      Note:
+
+        * Comment
+          Comment
+
+      ----
+
+      Text
+
+    * Third
+
+      Text
+
+      ----
+      Note:
+
+      * Comment
+
+      ----
+
+      Text
+
+      ----
+      Note:
+
+        * Comment
+          Comment
+
+      ----
+
+      Text
 
