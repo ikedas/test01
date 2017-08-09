@@ -36,49 +36,51 @@ Test:
 
     Text
 
-    * Second
+      * Second
 
-      Text
+        Text
 
-      ----
-      Note:
-
-      * Comment
-
-      ----
-
-      Text
-
-      ----
-      Note:
+        ----
+        Note:
 
         * Comment
-          Comment
 
-      ----
+        ----
 
-      Text
+        Text
 
-    * Third
+        ----
+        Note:
 
-      Text
+          * Comment
+            Comment
 
-      ----
-      Note:
+        ----
 
-      * Comment
+        Text
 
-      ----
+      * Third
 
-      Text
+        Text
 
-      ----
-      Note:
+        ----
+        Note:
 
         * Comment
-          Comment
 
-      ----
+        ----
 
-      Text
+        Text
+
+        ----
+        Note:
+
+          * Comment
+            Comment
+
+        ----
+
+        Text
+
+
 
