@@ -59,3 +59,26 @@ Test:
 
     Text
 
+  * Third
+
+    Text
+
+    ----
+    Note:
+
+    * Comment
+
+    ----
+
+    Text
+
+    ----
+    Note:
+
+      * Comment
+        Comment
+
+    ----
+
+    Text
+
