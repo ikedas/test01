@@ -21,6 +21,7 @@ Test:
     Note:
 
       * Comment
+          - Comment
 
     ----
 
@@ -54,6 +55,7 @@ Test:
 
           * Comment
             Comment
+              - Comment
 
         ----
 
