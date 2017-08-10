@@ -20,6 +20,139 @@
           <li><a href="{{ site.github.url }}">Document home</a></li>
           <li><a href="{{ site.github.repository_url }}/tree/master/{{ page.path }}">View page source</a></li>
         </ul>
+
+        <div class="toc">
+          <p>
+          <a href="{{ site.github.url }}/">Sympa Administration Manual</a>
+          </p>
+          <ol>
+            <li>
+            <a href="{{ site.github.url }}/scope.html">Audiences and scope</a>
+            </li>
+            <li>
+            <a href="{{ site.github.url }}/requirements.html">Requirements</a>
+            </li>
+            <li>
+            <a href="{{ site.github.url }}/install.html">Installing Sympa</a>
+            {% if page.path == 'install.md' || page.path contains 'install/' %}
+              <li>
+              <a href="{{ site.github.url }}/install/install-sympa-distribution.html">Install Sympa distribution</a>
+              {% if page.path contains 'install/install-sympa-distribution' %}
+                <li>
+                <a href="{{ site.github.url }}/install/install-sympa-distribution-debian.html">Debian package</a>
+                </li>
+                <li>
+                <a href="{{ site.github.url }}/install/install-sympa-distribution-ports.html">FreeBSD Ports/Packages</a>
+                </li>
+                <li>
+                <a href="{{ site.github.url }}/install/install-sympa-distribution-rpm.html">RPM package</a>
+                </li>
+                <li>
+                <a href="{{ site.github.url }}/install/install-sympa-distribution-source.html">Installing from source</a>
+                </li>
+              {% endif %}
+              </li>
+              <li>
+              <a href="{{ site.github.url }}/install/install-dependent-modules.html">Install dependent modules</a>
+              </li>
+              <li>
+              <a href="{{ site.github.url }}/install/generate-initial-configuration.html">Generate initial configuration</a>
+              </li>
+              <li>
+              <a href="{{ site.github.url }}/install/setup-database.html">Setup database</a>
+              {% if page.path contains 'install/setup-database' %}
+                <li>
+                <a href="{{ site.github.url }}/install/setup-database-mysql.html">MySQL or MariaDB</a>
+                </li>
+                <li>
+                <a href="{{ site.github.url }}/install/setup-database-oracle.html">Oracle Database</a>
+                </li>
+                <li>
+                <a href="{{ site.github.url }}/install/setup-database-postgresql.html">PostgreSQL</a>
+                </li>
+                <li>
+                <a href="{{ site.github.url }}/install/setup-database-sqlite.html">SQLite</a>
+                </li>
+              {% endif %}
+              </li>
+              <li>
+              <a href="{{ site.github.url }}/install/configure-system-log.html">Configure system log</a>
+              </li>
+              <li>
+              <a href="{{ site.github.url }}/install/configure-mail-server.html">Configure mail server</a>
+              {% if page.path contains 'install/configure-mail-server' %}
+                <li>
+                <a href="{{ site.github.url }}/install/configure-mail-server-exim.html">exim</a>
+                </li>
+                <li>
+                <a href="{{ site.github.url }}/install/configure-mail-server-opensmtpd.html">OpenSMTPD</a>
+                </li>
+                <li>
+                <a href="{{ site.github.url }}/install/configure-mail-server-postfix.html">Postfix</a>
+                </li>
+                <li>
+                <a href="{{ site.github.url }}/install/configure-mail-server-sendmail.html">Sendmail</a>
+                </li>
+              {% endif %}
+              </li>
+              <li>
+              <a href="{{ site.github.url }}/install/configure-http-server.html">Configure HTTP server</a>
+              {% if page.path contains 'install/configure-http-server' %}
+                <li>
+                <a href="{{ site.github.url }}/install/configure-http-server-apache.html">Apache HTTP Server</a>
+                </li>
+                <li>
+                <a href="{{ site.github.url }}/install/configure-http-server-lighttpd.html">lighttpd</a>
+                </li>
+                <li>
+                <a href="{{ site.github.url }}/install/configure-http-server-nginx.html">nginx</a>
+                </li>
+              {% endif %}
+              </li>
+              <li>
+              <a href="{{ site.github.url }}/install/start-mailing-list-service.html">Start mailing list service</a>
+              </li>
+              <li>
+              <a href="{{ site.github.url }}/install/automate-startup.html">Automate startup</a>
+              </li>
+            {% endif %}
+            </li>
+            <li>
+            <a href="{{ site.github.url }}/upgrade.html">Upgrading Sympa</a>
+            </li>
+            <li>
+            <a href="{{ site.github.url }}/admin.html">Administering Sympa</a>
+            {% if page.path == 'admin.md' || page.path contains 'admin/' %}
+              <li>
+              <a href="{{ site.github.url }}/admin/services.html">Managing services</a>
+              </li>
+              <li>
+              <a href="{{ site.github.url }}/admin/cli.html">Command line interface</a>
+              </li>
+              <li>
+              <a href="{{ site.github.url }}/admin/list-creation.html">List creation</a>
+              </li>
+              <li>
+              <a href="{{ site.github.url }}/admin/serveradmin.html">Listmaster portal on web interface</a>
+              </li>
+            {% endif %}
+            </li>
+            <li>
+            <a href="{{ site.github.url }}/customize.html">Customizing Sympa</a>
+            </li>
+          </ol>
+
+          <p>Appendices</p>
+          <ol>
+            <li>
+            <a href="{{ site.github.url }}/man/sympa_toc.1.html">References</a>
+            </li>
+            <li>
+            <a href="{{ site.github.url }}/layout.html">Directory layout</a>
+            </li>
+          </ol>
+        </div>
+
       </header>
 
       <section>
