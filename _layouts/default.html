@@ -27,10 +27,6 @@
           display: none;
         }
       }
-      footer {
-        float: right;
-        position: static;
-      }
     </style>
 
   </head>
@@ -373,16 +369,13 @@
       </nav>
       {% endunless %}
 
-      </section>
-      <footer>
-
         {% if page.url contains '/man/' %}
           <p>
             The content of this page is automatically generated from the source distribution of Sympa.
           </p>
         {% elsif page.license %}
           <p>
-            The content of this page is licensed under {{ page.license }}.
+            {{ page.license }}
           </p>
         {% else %}
           <p>
@@ -390,6 +383,8 @@
           </p>
         {% endif %}
 
+      </section>
+      <footer>
         <p><small>Theme originally designed by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
