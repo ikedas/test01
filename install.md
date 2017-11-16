@@ -1,2 +1,5 @@
 Install
 =======
+
+Run ``configure`` script
+------------------------
