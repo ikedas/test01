@@ -2,3 +2,5 @@ markdown: kramdown
 theme: jekyll-theme-minimal
 include:
   - LICENSE.md
+plugins:
+  - jekyll-redirect-from
