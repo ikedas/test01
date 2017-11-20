@@ -1,5 +1,6 @@
 ---
-redirect_from: ../page.html
+redirect_from:
+  - ../page.md
 ---
 
 Page
