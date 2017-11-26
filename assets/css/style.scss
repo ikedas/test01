@@ -3,10 +3,6 @@
 
 @import "{{ site.theme }}";
 
-code, pre {
-    font-size: 1.0em;
-}
-
 h1 {
     font-size: 2.0em;
     border-bottom: solid 1px #e0e0e0;
@@ -23,6 +19,10 @@ h3 {
 
 h4 {
     font-size: 1.0em;
+}
+
+pre code, pre, code {
+    font-size: 0.8em;
 }
 
 blockquote code, .highlight .c, .highlight .cd {
