@@ -3,10 +3,6 @@
 
 @import "{{ site.theme }}";
 
-body {
-    font-size: 16px;
-}
-
 h1 {
     font-size: 2.0em;
     border-bottom: solid 1px #e0e0e0;
@@ -35,4 +31,8 @@ code {
 
 blockquote code, .highlight .c, .highlight .cd {
     font-style: normal;
+}
+
+a:hover, a:focus {
+    font-weight: inherit;
 }
