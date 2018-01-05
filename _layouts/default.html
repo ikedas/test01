@@ -24,12 +24,10 @@
         }
       }
 
-      .toc-switch-div {
-        float: right;
-        clear: right;
-      }
       .toc-switch {
         display: none;
+        float: right;
+        clear: right;
       }
 
       .toc-switch ~ label:before {
@@ -375,10 +373,8 @@
 
       {% comment %} allejo/jekyll-toc {% endcomment -%}
       <nav class="toc pagetoc" style="width:auto; max-width:150px">
-        <div class="toc-switch-div">
-          <input type="checkbox" class="toc-switch" id="toc-switch" checked />
-          <label for="toc-switch"></label>
-        </div>
+        <input type="checkbox" class="toc-switch" id="toc-switch" checked />
+        <label for="toc-switch"></label>
         <p><b>{{ page.title }}</b></p>
         {% include toc.html html=content h_min=2 h_max=4 %}
       </nav>
