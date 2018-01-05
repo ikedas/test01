@@ -353,8 +353,8 @@
       {% endunless %}
 
       {% comment %} allejo/jekyll-toc {% endcomment -%}
-      <nav class="toc">
-      {% include toc.html sanitize=true html=content h_min=2 h_max=4 class="toc__menu" %}
+      <nav class="toc" style="display: block; float: right; clear: right; border: 1px solid #999; width: 135px">
+      {% include toc.html sanitize=true html=content h_min=2 h_max=4 %}
       </nav>
 
       {{ content }}
