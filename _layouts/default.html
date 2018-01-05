@@ -353,8 +353,9 @@
       {% endunless %}
 
       {% comment %} allejo/jekyll-toc {% endcomment -%}
-      <nav class="toc" style="float: right; clear: right; border: 1px solid #999; width: 165px; font-size: 0.6em; line-height: 1.5">
-      {% include toc.html sanitize=true html=content h_min=2 h_max=4 %}
+      <nav class="toc pagetoc">
+        <h4>{% page.title %}</h4>
+        {% include toc.html html=content h_min=2 h_max=4 %}
       </nav>
 
       {{ content }}
