@@ -23,6 +23,18 @@
           display: none;
         }
       }
+
+      toc-switch {
+        display:block;
+        float:right;
+        clear:right;
+      }
+      toc-switch ~ p {
+        display: inline;
+      }
+      toc-switch:checked ~ p {
+        display: none;
+      }
     </style>
 
   </head>
@@ -354,7 +366,7 @@
 
       {% comment %} allejo/jekyll-toc {% endcomment -%}
       <nav class="toc pagetoc">
-        <input type="checkbox" class="toc-switch" style="display:block; float:right; clear:right" />
+        <input type="checkbox" class="toc-switch" />
         <p><b>{{ page.title }}</b></p>
         {% include toc.html html=content h_min=2 h_max=4 %}
       </nav>
