@@ -29,11 +29,11 @@
         float: right;
         clear: right;
       }
-      .toc-switch ~ * {
-        display: block;
-      }
-      .toc-switch:checked ~ * {
+      .toc-switch ~ p, .toc-switch ~ ul {
         display: none;
+      }
+      .toc-switch:checked ~ p, .toc-switch:checked ~ ul {
+        display: block;
       }
     </style>
 
