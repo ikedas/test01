@@ -352,6 +352,11 @@
       </nav>
       {% endunless %}
 
+      {% comment %} allejo/jekyll-toc {% endcomment -%}
+      <nav class="toc">
+      {% include toc.html sanitize=true html=content h_min=2 h_max=4 class="toc__menu" %}
+      </nav>
+
       {{ content }}
 
       {% unless page.url contains '/man/' %}
