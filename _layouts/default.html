@@ -23,27 +23,6 @@
           display: none;
         }
       }
-
-      .toc-switch {
-        display: none;
-      }
-      .toc-switch ~ label {
-        display: block;
-        float: right;
-        clear: right;
-      }
-      .toc-switch ~ label:before {
-        content: '\1F53D';
-      }
-      .toc-switch ~ p, .toc-switch ~ ul {
-        display: none;
-      }
-      .toc-switch:checked ~ label:before {
-        content: '\274C';
-      }
-      .toc-switch:checked ~ p, .toc-switch:checked ~ ul {
-        display: block;
-      }
     </style>
 
   </head>
@@ -374,9 +353,9 @@
       {% endunless %}
 
       {% comment %} allejo/jekyll-toc {% endcomment -%}
-      <nav class="toc pagetoc" style="width:auto; max-width:150px">
+      <nav class="toc pagetoc">
         <input type="checkbox" class="toc-switch" id="toc-switch" checked />
-        <label for="toc-switch"></label>
+        <label for="toc-switch" title="ToC"></label>
         <p><b>{{ page.title }}</b></p>
         {% include toc.html html=content h_min=2 h_max=4 %}
       </nav>
