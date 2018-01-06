@@ -52,7 +52,11 @@ a:hover, a:focus {
 }
 .pagetoc ul {
   margin: 0;
-  padding: 0 0 0 2.0em;
+  padding: 0;
+  padding-inline-start: 2.0em;
+  -moz-padding-start: 2.0em;
+  -webkit-padding-start: 2.0em;
+  -ms-padding-left: 2.0em;
 }
 
 .toc-switch {
