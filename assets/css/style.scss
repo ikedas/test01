@@ -66,13 +66,13 @@ a:hover, a:focus {
   clear: right;
 }
 .toc-switch ~ label:before {
-  content: '\1F53D';
+  content: '\1F53D\FE0E';
 }
 .toc-switch ~ p, .toc-switch ~ ul {
   display: none;
 }
 .toc-switch:checked ~ label:before {
-  content: '\274C';
+  content: '\D7';
 }
 .toc-switch:checked ~ p, .toc-switch:checked ~ ul {
   display: block;
