@@ -85,5 +85,9 @@ Test:
 
         Text
 
+This is some text not written in HTML but in another language!
 
+*[another language]: It's called Markdown
 
+*[HTML]: HyperTextMarkupLanguage
+{:.mega-big}
