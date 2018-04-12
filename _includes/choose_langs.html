@@ -1,4 +1,3 @@
-XXXX
 <h1>Redirecting&hellip;</h1>
 
 <p>Choose language if you are not redirected:</p>
@@ -14,7 +13,24 @@ XXXX
     window.navigator.userLanguage ||
     window.navigator.browserLanguage
   ).toLowerCase();
-  if (langs.indexOf(lang) < 0) lang = 'en-us';
+
+  while (lang) {
+    var lIdx = langs.indexOf(lang);
+    if (0 <= lIdx) {
+      lang = langs[lIdx];
+      break;
+    }
+    var lSel = langs.filter(function(item){
+      if (0 == item.indexOf(lang + '-')) return true;
+    });
+    if (lSel[0]) {
+      lang = lSel[0];
+      break;
+    }
+
+    lang = lang.replace(/(^|-)[^-]*$/, '');
+  }
+  lang = lang || 'en-us';
+
   location.href = '{{site.github.url}}/' + lang + '{{page.url}}';
 </script>
-XXXX
