@@ -15,13 +15,16 @@
   ).toLowerCase();
 
   while (lang) {
-    var lIdx = langs.indexOf(lang);
-    if (0 <= lIdx) {
-      lang = langs[lIdx];
+    var lSel;
+    lSel = langs.filter(function(item){
+      if (item.toLowerCase() == lang.toLowerCase()) return true;
+    });
+    if (lSel[0]) {
+      lang = lSel[0];
       break;
     }
-    var lSel = langs.filter(function(item){
-      if (0 == item.indexOf(lang + '-')) return true;
+    lSel = langs.filter(function(item){
+      if (0 == item.toLoerCase().indexOf(lang.toLowerCase() + '-')) return true;
     });
     if (lSel[0]) {
       lang = lSel[0];
