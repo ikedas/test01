@@ -6,4 +6,6 @@ langs:
   - fr
   - ja
 ---
-{{include choose_lang}}
+
+Help
+====
