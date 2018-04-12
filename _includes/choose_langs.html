@@ -1,0 +1,20 @@
+&lt;&lt;&lt;
+<h1>Redirecting&hellip;</h1>
+
+<p>Choose language if you are not redirected:</p>
+<p>{% for lang in page.langs %}
+  <a href="{{site.github.url}}/{{lang}}{{page.url}}">{{lang}}</a>
+{% endfor %}</p>
+
+<script>
+  var langs = ['{{ page.langs | join: "', '" | downcase }}'];
+  var lang = (
+    (window.navigator.languages && window.navigator.languages[0]) ||
+    window.navigator.language ||
+    window.navigator.userLanguage ||
+    window.navigator.browserLanguage
+  ).toLowerCase();
+  if (langs.indexOf(lang) < 0) lang = 'en-us';
+  location.href = '{{site.github.url}}/' + lang + '{{page.url}}';
+</script>
+&gt;&gt;&gt;
