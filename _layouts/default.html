@@ -361,7 +361,7 @@
 {% endfor %}</p>
 
 <script>
-  var langs = ['{{ page.langs | join("', '") | downcase }}'];
+  var langs = ['{{ page.langs | join: "', '" | downcase }}'];
 
   var lang = (
     (window.navigator.languages && window.navigator.languages[0]) ||
