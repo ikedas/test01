@@ -1,6 +1,9 @@
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: minima
 include:
   - LICENSE.md
 plugins:
   - jekyll-redirect-from
+sympa:
+  version: '6.2.33b.1'
+

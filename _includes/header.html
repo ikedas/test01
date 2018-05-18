@@ -1,0 +1,40 @@
+<!-- header.tt2 -->
+<header>
+  <div class="title-bar"
+   data-responsive-toggle="sympa-top-bar" data-hide-for="medium">
+    <span class="menu-text" aria-hidden="true">
+      <a href="/" title="[% conf.wwsympa_url %]">
+        <img src="/assets/icons/logo_sympa.png"
+         alt="SYMPA logo" />
+      </a>
+    </span>
+    <div class="title-bar-right">
+      <div class="title-bar-title">
+        <span>Sympa Menu</span>
+      </div>
+      <a class="menu-icon" href="#" data-toggle="sympa-top-bar"></a>
+    </div>
+  </div>
+
+  <nav class="top-bar" id="sympa-top-bar" role="navigation">
+    <ul class="top-bar-left medium-2 columns show-for-medium">
+      <li class="name">
+        <span class="menu-text">
+          <a href="/" title="[% conf.wwsympa_url %]">
+            <img src="/assets/icons/logo_sympa.png"
+             alt="SYMPA logo" />
+          </a>
+        </span>
+      </li>
+    </ul>
+
+    <menu class="top-bar-right">
+      <ul class="vertical medium-horizontal menu"
+       data-responsive-menu="drilldown medium-dropdown">
+        {% include sympa_menu.html %}
+      </ul>
+    </menu>
+  </nav>
+  <h1 class="row">{{ site.title | escape }}</h1>
+</header>
+<!-- end header.tt2 -->

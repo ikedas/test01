@@ -1,0 +1,19 @@
+<!-- sympa_menu.tt2 -->
+    <li class=""><a  href="{{ '/' | relative_url }}"><i class="fi-home"></i>  Home</a></li>
+    <li class="">
+      <a href="#"><i class="fa fa-search-plus"></i> Search for List(s)</a>
+      <ul class="vertical menu">
+        <li class=""><a href="{{ '/search_list_request' | relative_url }}"><i class="fa fa-search"></i> Search form</a></li>
+        <li class=""><a class="heavyWork" href="{{ '/lists' | relative_url }}"><i class="fa fa-list"></i> Index of Lists</a></li>
+        <li class=""><a href="{{ '/lists_categories' | relative_url }}" target=""><i class="fa fa-sitemap"></i> Browse lists by categories</a>    
+      </ul>
+    </li>
+
+    <li class="">
+      <a href="#"><i class="fa fa-life-ring"></i> Support</a>
+      <ul class="vertical menu">
+        <li class=""><a href="{{ '/help' | relative_url }}" title="Documentation"><i class="fa fa-book"></i> Documentation</a></li>
+        <li class=""><a href="{{ '/help/faq' | relative_url }}" title="Frequently asked questions"><i class="fa fa-question"></i> FAQ</a></li>
+      </ul>
+    </li>
+<!-- end sympa_menu.tt2 -->

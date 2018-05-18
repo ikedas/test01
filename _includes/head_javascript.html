@@ -1,0 +1,38 @@
+<!-- head_javascript.tt2 -->
+<script>
+<!--
+var sympa = {
+    backText:           "Back",
+    calendarButtonText: "Calendar",
+    calendarFirstDay:   0,
+    closeText:          "Close",
+    dayNames:           "Sunday:Monday:Tuesday:Wednesday:Thursday:Friday:Saturday".split(":"),
+    dayNamesMin:        "Su:Mo:Tu:We:Th:Fr:Sa".split(":"),
+    home_url:           '/sympa/',
+    icons_url:          '/assets/icons',
+    lang:               '{{ page.lang | default: site.lang | default: 'en-US' }}',
+    loadingText:        "Please Wait...",
+    monthNamesShort:    "Jan:Feb:Mar:Apr:May:Jun:Jul:Aug:Sep:Oct:Nov:Dec".split(":"),
+    resetText:          "Reset"
+};
+var lang = '{{ page.lang | default: site.lang | default: 'en-US' }}';
+//-->
+</script>
+
+<script src="/assets/external/jquery.js?v3.2.1"></script>
+<script src="/assets/external/jquery-migrate.js?v1.4.1"></script>
+<script src="/assets/external/jquery-ui.js?v1.12.1"></script>
+<script src="/assets/external/jquery.jqplot.min.js?v1.0.8"></script>
+<script src="/assets/external/jqplot.categoryAxisRenderer.min.js?v1.0.8"></script>
+<script src="/assets/external/jqplot.barRenderer.min.js?v1.0.8"></script>
+<script src="/assets/external/jqplot.canvasAxisTickRenderer.min.js?v1.0.8"></script>
+<script src="/assets/external/jqplot.canvasTextRenderer.min.js?v1.0.8"></script>
+<script src="/assets/js/sympa.js?v{{ site.data.sympa.version }}"></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/assets/external/html5shiv/html5shiv.js?v3.7.2"></script>
+<![endif]-->
+<script type="text/javascript" src="/assets/external/respondjs/respond.min.js?v1.4.2"></script>
+<script src="/assets/external/foundation/js/vendor/what-input.js?v4.2.0"></script>
+<script src="/assets/external/foundation/js/vendor/foundation.min.js?v6.4.2"></script>
+<!-- end head_javascript.tt2 -->
