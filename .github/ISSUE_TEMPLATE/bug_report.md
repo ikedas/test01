@@ -18,8 +18,8 @@ Possible Solution / Solution possible / 解決策
 ----------------------------------------------
 <!--- Not obligatory, but suggest a fix/reason for the bug -->
 
-For bugs: Steps to Reproduce / Procédure pour reproduire / 再現手順
--------------------------------------------------------------------
+Steps to Reproduce / Procédure pour reproduire / 再現手順
+---------------------------------------------------------
 <!--- Provide a link to a live example, or an unambiguous set of steps to -->
 <!--- reproduce this bug. Include code to reproduce, if relevant -->
 1. 
@@ -32,12 +32,10 @@ Your Environment / Votre environnement / システム詳細
 <!--- Include as many relevant details about the environment you experienced the bug in -->
 
 * Version of your Sympa: 
-
 * Configuration of your Sympa: 
   <!--- Please include related configuration files such as sympa.conf. -->
   <!--- You may attach files using "selecting them" link below. -->
-
-* Components and versions
+* Components and versions:
     * Operating System: 
     * MTA (mail server): 
     * HTTP server: 
