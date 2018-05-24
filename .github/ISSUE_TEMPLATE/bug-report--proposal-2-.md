@@ -6,8 +6,8 @@ about: Create a report to help us improve
 
 <!--- ↑↑ Provide a general summary of the issue in the Title above ↑↑ -->
 
-Your Environment
---------------------
+Environment
+---------------
 <!--- You may attach files using "selecting them" link below. -->
 <!--- NOTE that you should not include private information! -->
 * Version: 
