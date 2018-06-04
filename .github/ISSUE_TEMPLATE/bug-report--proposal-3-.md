@@ -24,6 +24,6 @@ Actual behavior
 
 Additional information
 ----------------------
-<!--- You may attach files using "selecting them" link below. -->
+<!--- You may also attach files using "selecting them" link below. -->
 <!--- NOTE that you should not include sensitive information! -->
 
